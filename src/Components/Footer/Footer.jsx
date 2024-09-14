@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
 
-import logo from '../../assets/images/Logo2.png'
+import logo from '../../assets/images/Logo.png'
 
 
 const Footer = () => {
 
     const Services = [
-        'IT Management',
-        'Digital Marketing',
         'Web Development',
-        'App Development',
         'Digital Marketing',
-      ];
+        'Digital Marketing',
+        'Social Media Handling',
+        'Gaming Assets',
+        'Graphic Design',
+        'Search Engine Optimization',
+        '2D/3D Character Modeling'
+    ];
 
       const UsefulLinks = [
         {title:'About Company', link:'/about'},
@@ -32,7 +35,7 @@ const Footer = () => {
 
       const AdressContent = {
         Title:'Elevating Customer Experience.',
-        Number:'+44 920 090 505'
+        Number:'+44 7983 309038'
       }
 
     return (
@@ -75,7 +78,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="footer-widget">
                                 <div className="footer-logo">
-                                <Link to="/"><img src={LogoContent.img1} alt="footer-logo" /></Link>
+                                <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
                                 <p className="footer-widget-text">{LogoContent.Content}</p>
                                 <div className="footer-social">
@@ -132,7 +135,7 @@ const Footer = () => {
                     <div className="row copyright">
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="-copyright-text">
-                                <p>© Copyright 2024 By Solutek</p>
+                                <p>© Copyright 2024 By My Techlancer</p>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6">

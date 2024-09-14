@@ -6,54 +6,52 @@ import socialmedia from '../assets/images/CardImages/socialmedia.png'
 import gaming from '../assets/images/CardImages/gaming.png'
 import digital from '../assets/images/CardImages/digital.png'
 
-
-
 const data = [
   {
     "title": "Web Development",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "desc": "Build responsive and dynamic websites.",
     "icon": web,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "title": "Digital Marketing",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "desc": "Boost your brand’s online presence.",
     "icon": digital,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "title": "Graphic Design",
-    "desc": "Monotonectally solutek in fermentum quis",
-    "icon": graphics, 
+    "desc": "Create visually stunning graphics.",
+    "icon": graphics,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "title": "2D/3D character ",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "title": "2D/3D Character",
+    "desc": "Design captivating characters in 2D and 3D.",
     "icon": anime,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "title": "Gaming Assets",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "desc": "Develop high-quality assets for games.",
     "icon": gaming,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "title": "Social Media",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "desc": "Enhance engagement through social platforms.",
     "icon": socialmedia,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "title": "Seo Optimization",
-    "desc": "Monotonectally solutek in fermentum quis",
+    "title": "SEO Optimization",
+    "desc": "Improve website rankings and visibility.",
     "icon": seo,
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"

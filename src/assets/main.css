@@ -1439,7 +1439,7 @@ h5.section-sub-title::before {
   content: "";
   width: 30px;
   height: 7px;
-  background: #ff3d00;
+  background: #008eb2;
   border-radius: 30px;
   left: -8%;
   top: 14px;
@@ -1502,7 +1502,7 @@ p.section-descr::before {
   margin: 0;
   font-size: 28px;
   line-height: 38px;
-  color: #050a1e;
+  color: #ffffff;
   font-weight: 600;
   font-family: "Poppins";
 }
@@ -1536,7 +1536,7 @@ h6.section-sub-title::before {
   content: '';
   width: 70px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
+  background-image: linear-gradient(270deg, #ffffff 0%, #008eb2 100%);
   left: -76px;
   top: 12px;
 }
@@ -1546,7 +1546,7 @@ h6.section-sub-title::after {
   content: '';
   width: 70px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ff3b00 0%, #ffffff 100%);
+  background-image: linear-gradient(270deg, #008eb2 0%, #ffffff 100%);
   right: -74px;
   top: 12px;
 }
@@ -1584,11 +1584,11 @@ h1.section-main-title2 {
 }
 
 .case-studies-area h6.section-sub-title::before {
-  background-image: linear-gradient(270deg, #05091d 0%, #ff3b00 100%);
+  background-image: linear-gradient(270deg, #05091d 0%, #008eb2 100%);
 }
 
 .case-studies-area h6.section-sub-title::after {
-  background-image: linear-gradient(270deg, #ff3b00 0%, #05091d 100%);
+  background-image: linear-gradient(270deg, #008eb2 0%, #05091d 100%);
 }
 
 .case-studies-area h1.section-main-title2 {
@@ -1697,7 +1697,7 @@ h1.section-main-title2 {
 }
 
 .quote_button button {
-  background: #ff3d00;
+  background: #008eb2;
   padding: 14px 48px 14px;
   border-radius: 30px;
   transition: 0.5s;
@@ -1718,7 +1718,7 @@ h1.section-main-title2 {
 
 .form_box input:focus,
 .form_box textarea:focus {
-  border-color: #ff3d00;
+  border-color: #008eb2;
   outline: 0;
   box-shadow: 0 0 4px rgb(255, 61, 0, 0.5);
 }
@@ -3319,7 +3319,7 @@ ul.testi-rating li {
 =======================================*/
 
 .address-area {
-  background: #ff3d00;
+  background: #008eb2;
   margin: 0 50px 0;
   padding: 25px 0 25px;
   border-radius: 40px 40px 0 0;
@@ -3404,7 +3404,7 @@ ul.testi-rating li {
 =======================================*/
 
 .footer-area {
-  background: url(/assets/images/footer-bg.png);
+  background: url(../assets/images/footerbg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5904,7 +5904,7 @@ ul.breadcumb-list {
   font-size: 16px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #ff3b00;
+  color: #008eb2;
   font-weight: 500;
   font-family: "Fira Sans";
 }
@@ -5957,7 +5957,7 @@ li.list-arrow {
   content: "";
   width: 11px;
   height: 11px;
-  background: #ff3b00;
+  background: #008eb2;
   left: 0;
   top: 5px;
   border-radius: 50%;
@@ -6029,7 +6029,7 @@ li.list-arrow {
   display: inline-block;
   color: #fff;
   font-size: 30px;
-  background: #ff3b00;
+  background: #008eb2;
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;

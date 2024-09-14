@@ -4,7 +4,7 @@ import Blog1 from "../Components/Blog/Blog1";
 import Brand from "../Components/Brand/Brand";
 import Contact1 from "../Components/Contact/Contact1";
 import Faq from "../Components/Faq/Faq";
-import Features from "../Components/Features/Features";
+// import Features from "../Components/Features/Features";
 import Pricing from "../Components/Pricing/Pricing";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
@@ -12,6 +12,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/hero-background.jfif'
+import aboutImg from '../assets/images/about-thumb.png'
 
 const Home = () => {
     return (
@@ -28,7 +29,7 @@ const Home = () => {
             ></Hero1>
             {/* <Features></Features> */}
             <About1
-                MainImg="/assets/images/about-thumb.png"
+                MainImg={aboutImg}
                 ImgTitle="BEST IT SOLUTION"
                 SubTitle="SOLUTEK COMPANY"
                 Title="Essential IT Solutions For<br> Modern <span>Businesses.</span>"

@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import loadBackgroudImages from "./loadBackgroudImages";
 import { Link } from "react-router-dom";
 
+import BreadcrumbImg from '../../assets/images/breadcumb-bg.png'
+
 const BreadCumb = ({Title}) => {
     
     useEffect(() => {
@@ -9,7 +11,7 @@ const BreadCumb = ({Title}) => {
       }, []);
 
     return (
-      <div className="breadcumb-area about" data-background="/assets/images/inner/breadcumb-bg.png">
+      <div className="breadcumb-area about" data-background={BreadcrumbImg}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
