@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 
-import logo from '../../assets/images/Logo.png'
+import logo from '../../assets/images/CardImages/whiteLogo.png'
 
 
 const Footer = () => {
 
     const Services = [
         'Web Development',
-        'Digital Marketing',
         'Digital Marketing',
         'Social Media Handling',
         'Gaming Assets',
@@ -26,11 +25,11 @@ const Footer = () => {
 
       const LogoContent = {
         img1:{logo},
-        Content:'Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.'
+        Content:'Globally monetizing plug-and-play IT solutions, we specialize in seamless data integration and business-focused strategies. Our multifunctional approach delivers efficient, customized solutions designed to drive growth and success across industries.'
       }
 
       const NewsletterContent = {
-            Content:'Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.'
+            Content:'Globally monetizing plug-and-play IT solutions, we specialize in seamless data integration and business-focused strategies. Our multifunctional approach delivers efficient, customized solutions designed to drive growth and success across industries.'
       }
 
       const AdressContent = {
@@ -80,7 +79,7 @@ const Footer = () => {
                                 <div className="footer-logo">
                                 <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
-                                <p className="footer-widget-text">{LogoContent.Content}</p>
+                                <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem'}}>{LogoContent.Content}</p>
                                 <div className="footer-social" style={{marginLeft:'1.7rem'}}>
                                     <div className="footer-widget-social">
                                         <a href="#"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
@@ -120,7 +119,7 @@ const Footer = () => {
                                 <div className="widget-title">
                                     <h2>Newsletter</h2>
                                 </div>
-                                <p className="newsletter-text">{NewsletterContent.Content}</p>
+                                <p className="newsletter-text" style={{textAlign:'justify',color:'white'}}>{NewsletterContent.Content}</p>
                                 <div className="Subscribe-form2">
                                     <form>
                                         <div className="form-field2">

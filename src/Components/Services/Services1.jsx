@@ -10,7 +10,7 @@ const Services1 = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center">
                                 <SectionTitle
-                                    SubTitle="MY Techlancer COMPANY"
+                                    SubTitle="MY Techlancer Company"
                                     Title="How Professional IT Services<br> Can Drive Success."
                                 ></SectionTitle>
                             </div>

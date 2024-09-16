@@ -4,6 +4,8 @@ import data from '../../Data/testimonial1.json';
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 
+import bgImage from '../../assets/images/breadcumb-bg.png'
+
 const Testimonial1 = () => {
 
     useEffect(() => {
@@ -40,7 +42,7 @@ const Testimonial1 = () => {
       };      
 
     return (
-        <div className="testimonial-area" data-background="/assets/images/testi-bg.png">
+        <div className="testimonial-area" data-background={bgImage}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

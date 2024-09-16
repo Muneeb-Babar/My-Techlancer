@@ -4,9 +4,9 @@ const About1 = ({MainImg,ImgTitle,SubTitle,Title,Content,listTitle,BottomText,Bt
     return (
         <div className="about-area container" style={{marginTop:'4rem'}}>
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-lg-6">
-                            <div className="about-thumb">
+                    <div className="row align-items-center container">
+                        <div className="col-lg-6 col-lg-6 pl-50">
+                            <div className="about-thumb" style={{width:'100%'}}>
                                 <img src={MainImg} alt="about-thumb" />
                                 <div className="about-shape">
                                     <img src="/assets/images/about1.png" alt="about1" />
@@ -15,12 +15,12 @@ const About1 = ({MainImg,ImgTitle,SubTitle,Title,Content,listTitle,BottomText,Bt
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="section-title text-left">
+                            <div className="section-title text-left mt-3">
                                 <h5 className="section-sub-title">{SubTitle}</h5>
                                 <h1 className="section-main-title">{parse(Title)}</h1>
-                                <p className="section-title-descr">{Content}</p>
+                                <p className="section-title-descr" style={{textAlign:'justify'}}>{Content}</p>
                             </div>
-                            <div className="about-box d-flex align-items-center">
+                            {/* <div className="about-box d-flex align-items-center">
                                 <div className="about-icon">
                                     <img src="/assets/images/about4.png" alt="about4" />
                                 </div>
@@ -30,7 +30,7 @@ const About1 = ({MainImg,ImgTitle,SubTitle,Title,Content,listTitle,BottomText,Bt
                             </div>
                             <div className="about-text">
                                 <p>{BottomText}</p>
-                            </div>
+                            </div> */}
                             <div className="solutek-btn">
                                 <Link to={BtnUrl}>
                                 {BtnText}

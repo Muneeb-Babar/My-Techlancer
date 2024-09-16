@@ -3,6 +3,8 @@ import data from '../../Data/faq.json';
 import { useEffect, useRef, useState } from "react";
 import parse from 'html-react-parser';
 
+import faqImg from '../../assets/images/faqImg.png'
+
 const Faq = () => {
 
     const accordionContentRef = useRef(null);
@@ -24,9 +26,9 @@ const Faq = () => {
     }, [firstItemOpen]);
 
     const FaqContent = {
-        img1:'/assets/images/faq1.png',
+        img1:faqImg,
         Title:'A Comprehensive <span>Guide.</span>',
-        Content:'Alternative innovation network environmental whiteboard pursue  for premier methods empowerment  go forward opportunities'
+        Content:'Discover how alternative innovation networks are driving environmental progress, serving as dynamic whiteboards for pioneering methods. This guide explores how these networks empower businesses to pursue forward-thinking opportunities and adopt premier strategies for sustainable growth and innovation.'
       }
 
     return (
@@ -36,7 +38,7 @@ const Faq = () => {
                         <div className="col-lg-6 col-md-12">
                             <div className="section-title text-left">
                                 <SectionTitle
-                                    SubTitle="SOLUTEK COMPANY"
+                                    SubTitle="My Techlancer Company"
                                     Title="Keeping Your Business<br> Safe and <span>Available.</span>"
                                 ></SectionTitle>
                             </div>

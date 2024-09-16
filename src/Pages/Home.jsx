@@ -12,7 +12,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
-import aboutImg from '../assets/images/about-thumb.png'
+import aboutImg from '../assets/images/about.jpg'
 
 const Home = () => {
     return (
@@ -21,7 +21,7 @@ const Home = () => {
                 bgImg={heroBackground}
                 SubTitle="MY Techlancer IT SERVICES"
                 Title="The Beauty Behind<br>IT Services."
-                Content="Where your interests international networks intersect provid custom software solutions for any value software."
+                Content="where international networks intersect, we specialize in delivering custom software solutions tailored to meet the unique needs of businesses across various sectors."
                 BtnText="EXPLORE MORE"
                 BtnLink="/about"
                 Image={heroImage}
@@ -30,12 +30,12 @@ const Home = () => {
             {/* <Features></Features> */}
             <About1
                 MainImg={aboutImg}
-                ImgTitle="BEST IT SOLUTION"
-                SubTitle="SOLUTEK COMPANY"
+                // ImgTitle="BEST IT SOLUTION"
+                SubTitle="My Techlancer Company"
                 Title="Essential IT Solutions For<br> Modern <span>Businesses.</span>"
-                Content="Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design."
-                listTitle="Cloud Based Solution"
-                BottomText="Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design."
+                Content="we provide essential IT solutions designed to meet the evolving needs of modern businesses. Our focus is on delivering innovative, scalable, and efficient technology services that empower organizations to stay competitive in today’s fast-paced digital landscape. From custom software development to IT consulting and support, we ensure businesses have the tools and expertise needed to streamline operations, enhance productivity, and drive growth. Our commitment to excellence and customer satisfaction sets us apart, making us the ideal partner for your IT needs."
+                // listTitle="Cloud Based Solution"
+                // BottomText="Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design."
                 BtnUrl="/about"
                 BtnText="EXPLORE MORE"
             ></About1>
