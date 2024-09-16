@@ -6188,15 +6188,15 @@ li.list-arrow {
 
 /* all hover */
 .sservice-area.style-two .single-service-box:hover h3.service-title {
-  color: #ff3b00;
+  color: #008eb2;
 }
 
 .sservice-area.style-two .single-service-box:hover .service-btn a {
-  color: #ff3b00;
+  color: #008eb2;
 }
 
 .sservice-area.style-two .single-service-box:hover .service-btn i {
-  background: #ff3b00;
+  background: #008eb2;
   color: #fff;
 }
 

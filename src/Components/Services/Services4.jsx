@@ -1,5 +1,5 @@
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../Data/services4.json';
+import data from '../../Data/services4';
 import { Link } from "react-router-dom";
 
 const Services4 = () => {
@@ -10,7 +10,7 @@ const Services4 = () => {
                     <div className="col-lg-12">
                         <div className="section-title text-center">
                             <SectionTitle
-                                    SubTitle="SOLUTEK COMPANY"
+                                    SubTitle="My Techlancer Company"
                                     Title="How Professional IT Services<br> Can Drive <span>Success.</span>"
                             ></SectionTitle>
                         </div>

@@ -3,6 +3,10 @@ import SectionTitle from "../Common/SectionTitle";
 import BlogCard1 from "../BlogCard/BlogCard1";
 import BlogCardStyle2 from "../BlogCard/BlogCardStyle2";
 
+import blog1 from '../../assets/images/blog1.png'
+import blog2 from '../../assets/images/blog2.png'
+import blog3 from '../../assets/images/blog3.png'
+
 const Blog1 = () => {
     return (
         <div className="blog-area">
@@ -33,20 +37,20 @@ const Blog1 = () => {
                 <div className="row">
                     <div className="col-xl-5 col-lg-6 col-md-6">
                         <BlogCard1
-                            BlogImg="/assets/images/blog1.png"
+                            BlogImg={blog1}
                             Title="Leveraging Descriptive Solutions for Business Growth."
                             Content="Appropriatel promote enterprise-wide vortals throuh in information without equity best  revolutioniz enterprise-wide vortals throuh."                        
                         ></BlogCard1>
                     </div>
                     <div className="col-xl-7 col-lg-6 col-md-6">
                         <BlogCardStyle2
-                             BlogImg="/assets/images/blog2.png"
+                             BlogImg={blog2}
                              Title="How to Create Modern Web Site For Your Business.."
                              Content="Appropriatel promote enterprise-wide vortals throuh in information without equity best  revolutioniz"                            
                         ></BlogCardStyle2>
 
                         <BlogCardStyle2
-                             BlogImg="/assets/images/blog3.png"
+                             BlogImg={blog3}
                              Title="How to Create Modern Web Site For Your Business.."
                              Content="Appropriatel promote enterprise-wide vortals throuh in information without equity best  revolutioniz"                            
                         ></BlogCardStyle2>

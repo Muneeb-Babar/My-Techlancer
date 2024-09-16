@@ -1,4 +1,4 @@
-import data from '../../Data/team1.json';
+import data from '../../Data/team1';
 import SectionTitle from '../Common/SectionTitle';
 
 const Team1 = () => {
