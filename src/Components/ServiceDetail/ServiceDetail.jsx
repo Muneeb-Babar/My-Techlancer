@@ -69,9 +69,9 @@ const ServiceDetail = () => {
                                                 </div>
                                                 <div className="service-details-list">
                                                     <ul>
-                                                        <li><i className="bi bi-arrow-right"></i>Success Stories</li>
-                                                        <li><i className="bi bi-arrow-right"></i>Success service</li>
-                                                        <li><i className="bi bi-arrow-right"></i>Success store</li>
+                                                        <li><i className="bi bi-arrow-right" style={{color:'#008eb2'}}></i>Success Stories</li>
+                                                        <li><i className="bi bi-arrow-right" style={{color:'#008eb2'}}></i>Success service</li>
+                                                        <li><i className="bi bi-arrow-right" style={{color:'#008eb2'}}></i>Success store</li>
                                                     </ul>
                                                 </div>
                                             </div>
