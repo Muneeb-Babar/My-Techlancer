@@ -58,7 +58,7 @@ const Project1 = ({bgImage,ClassAdd}) => {
                     <div className="col-lg-6">
                         <div className="section-title text-left">
                             <SectionTitle
-                                    SubTitle="SOLUTEK PROJECT"
+                                    SubTitle="My Techlancer PROJECT"
                                     Title="Explore Our Recent <span>Projects.</span>"
                             ></SectionTitle>
                         </div>

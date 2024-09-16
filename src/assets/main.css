@@ -2141,7 +2141,7 @@ h4.about-title {
 }
 .solutek-button a {
   display: inline-block;
-  background: #ff3b00;
+  background: #008eb2;
   text-decoration: none;
   padding: 16px 28px;
   font-size: 15px;
@@ -3392,7 +3392,7 @@ ul.testi-rating li {
 }
 
 .address-area .solutek-btn a:hover {
-  color: #ff3d00;
+  color: #008eb2;
 }
 
 /*=====================================
@@ -5148,7 +5148,7 @@ ul.list-style-one li a:hover {
 }
 
 .solutek_nav_manu.style-three .sidebar-button a {
-  color: #ff3b00;
+  color: #008eb2;
   display: inline-block;
   background-color: rgb(255 59 0/7%);
   height: 45px;
@@ -6789,7 +6789,7 @@ p.services-details-desc {
   height: 2px;
   left: 0;
   bottom: -8px;
-  background: #ff3b00;
+  background: #008eb2;
 }
 
 .widget-category ul li img {
@@ -6810,7 +6810,7 @@ p.services-details-desc {
   width: 100%;
   display: inline-block;
   margin-bottom: 14px;
-  color: #001819;
+  color: #008eb2;
   font-weight: 500;
   border-radius: 5px;
   position: relative;
@@ -6858,7 +6858,7 @@ p.services-details-desc {
 
 .widget-sidber-download-button a {
   display: inline-block;
-  background: #00181a;
+  background: #008eb2;
   width: 100%;
   color: #fff;
   padding: 15px 23px;
@@ -6897,7 +6897,7 @@ p.services-details-desc {
 /*sidber contact*/
 
 .widget-sidber-contact-box {
-  background: url(/assets/images/inner/sidber-contact.png);
+  background: url(../assets/images/breadcumb-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -6942,17 +6942,17 @@ span.widget-sidber-contact-gmail i {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background: #ff3b00;
+  background: #008eb2;
   padding: 16px 98px 15px;
   border-radius: 5px;
   margin-top: 55px;
   transition: 0.5s;
-  border: 2px solid #ff3b00;
+  /* border: 2px solid #ff3b00; */
 }
 
 .widget-sidber-contact-btn a:hover {
   background: transparent;
-  color: #ff3b00;
+  color: #fff;
 }
 
 .widget-sidber-contact-btn a i {

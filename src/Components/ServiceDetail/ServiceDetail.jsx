@@ -1,16 +1,23 @@
 import { useEffect, useRef, useState } from "react";
+import { MdMarkEmailRead } from "react-icons/md";
+import { FaDiagramSuccessor } from "react-icons/fa6";
+import { FaFolderOpen } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import data from '../../Data/faq.json';
+
+import serviceDetail from '../../assets/images/service-details.png'
+import contactImag from '../../assets/images/breadcumb-bg.png'
 
 const ServiceDetail = () => {
 
     const Services = [
-        'Database Security',
-        'IT Solution',
-        'Technology Consult',
-        'App Development',
-        'UI/UX Design',
-        'Cyber Security',
+        'Web Development',
+        'Digital Marketing',
+        'Graphic Design',
+        '2D/3D Character',
+        'Gaming Assets',
+        'Social Media Handling',
+        'SEO Optimization'
       ];  
 
       const accordionContentRef = useRef(null);
@@ -40,14 +47,14 @@ const ServiceDetail = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="services-details-thumb">
-                                        <img src="/assets/images/inner/service-details.png" alt="thumb" />
+                                        <img src={serviceDetail} alt="thumb" />
                                     </div>
                                     <div className="services-details-content">
-                                        <h4 className="services-details-title">Best Solutions for App Development</h4>
+                                        <h4 className="services-details-title">Best Solutions for Web Development</h4>
 
-                                        <p className="services-details-desc">Alternative innovation to ethical network environmental whiteboard pursue compelling results for premier methods empowerment. Dramatically architect go forward opportunities before user-centric partnerships.Credibly implement exceptional </p>
+                                        <p className="services-details-desc">we offer innovative and ethical web development solutions, designed to drive compelling results. Our approach combines cutting-edge technologies with forward-thinking methods to empower businesses. We architect seamless, user-centric web platforms that open new opportunities for growth and foster strong partnerships.</p>
 
-                                        <p className="services-details-desc">Continually fashion orthogonal leadership skills whereas wireless metrics. Uniquely syndicate exceptional opportunities with interdependent users. Globally enhance fully tested meta-services rather than pandemic solutions. Proactively integrate client-integrate go forward architectures and turnkey meta-services.Interactively harness integrated ROI whereas frictionless products. 	
+                                        <p className="services-details-desc">Our team continually refines leadership in web development, leveraging industry-leading practices to deliver exceptional results. By integrating advanced solutions and frictionless products, we ensure a streamlined experience for your clients. Globally, we enhance the value of your web presence with fully tested, scalable services that are designed to meet modern demands. 	
                                         </p>
                                     </div>
                                     <div className="row">
@@ -72,7 +79,8 @@ const ServiceDetail = () => {
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-details-icon-box">
                                                 <div className="service-det-icon">
-                                                    <img src="/assets/images/inner/det-icon.png" alt="icon" />
+                                                    {/* <img src="/assets/images/inner/det-icon.png" alt="icon" /> */}
+                                                    <FaDiagramSuccessor size={30} color="#008eb2"/>
                                                 </div>
                                                 <div className="service-det-content">
                                                     <h3>Empowering Your Success</h3>
@@ -117,12 +125,12 @@ const ServiceDetail = () => {
                                         <div className="widget-category">
                                             <ul>
                                             {Services.map((item, i) => ( 
-                                                <li key={i}><Link to="/service/service-details"><img src="/assets/images/inner/category-icon.png" alt="" />{item}<i className="bi bi-arrow-right"></i></Link></li>
+                                                <li key={i}><Link to="/service/service-details"><FaFolderOpen size={35} color="#008eb2" style={{paddingRight:'10px'}}/>{item}<i className="bi bi-arrow-right"></i></Link></li>
                                             ))}
                                             </ul>
                                         </div>
                                     </div>						
-                                    <div className="widget-sidber">
+                                    {/* <div className="widget-sidber">
                                         <div className="widget-sidber-content">
                                             <h4>Downloads</h4>
                                         </div>
@@ -131,14 +139,14 @@ const ServiceDetail = () => {
 
                                             <a className="active" href="#"><i className="bi bi-file-earmark-pdf"></i>Download Lists<span><i className="bi bi-download"></i></span></a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="widget-sidber-contact-box">
                                         <div className="widget-sidber-contact">
-                                            <img src="/assets/images/inner-images/sidber-cont-icon.png" alt="" />
+                                            <img src={contactImag} alt="" style={{width:'100%',height:'100%'}} />
                                         </div>
                                         <p className="widget-sidber-contact-text">Call Us Anytime</p>
-                                        <h3 className="widget-sidber-contact-number">+123 (4567) 890</h3>
-                                        <span className="widget-sidber-contact-gmail"><i className="bi bi-envelope-fill"></i>example@gmail.com</span>
+                                        <h3 className="widget-sidber-contact-number">+44 7983 309038</h3>
+                                        <span className="widget-sidber-contact-gmail"><MdMarkEmailRead color="#008eb2"  size={30} style={{paddingRight:'10px'}}/>info@mytechlancers.com</span>
                                         <div className="widget-sidber-contact-btn">
                                            <Link to="/contact">Contact Us <i className="bi bi-arrow-right"></i></Link>
                                         </div>
