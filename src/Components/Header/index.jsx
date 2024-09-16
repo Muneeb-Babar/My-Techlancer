@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 
-import logo from '../../assets/images/Logo2.png'
+// import logo from '../../assets/images/CardImages/whiteLogo.png'
 
 
 export default function Header({ variant }) {
@@ -45,7 +45,7 @@ export default function Header({ variant }) {
 
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" to="/">
-                <img src={logo} alt="Logo"  />
+                {/* <img src={logo} alt="Logo"  /> */}
               </Link>
                </div>
 

@@ -81,12 +81,12 @@ const Footer = () => {
                                 <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
                                 <p className="footer-widget-text">{LogoContent.Content}</p>
-                                <div className="footer-social">
+                                <div className="footer-social" style={{marginLeft:'1.7rem'}}>
                                     <div className="footer-widget-social">
-                                        <a href="#"><i className="bi bi-facebook"></i></a>
-                                        <a href="#"><i className="bi bi-twitter"></i></a>
-                                        <a href="#"><i className="bi bi-linkedin"></i></a>
-                                        <a href="#"><i className="bi bi-instagram"></i></a>                                        
+                                        <a href="#"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        <a href="#"><i className="bi bi-twitter" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        <a href="#"><i className="bi bi-linkedin" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        <a href="#"><i className="bi bi-instagram" style={{color:'white',fontSize:'20px'}}></i></a>                                        
                                     </div>
                                 </div>
                             </div>

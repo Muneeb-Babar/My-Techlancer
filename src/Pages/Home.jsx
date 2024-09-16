@@ -11,7 +11,7 @@ import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
 import heroImage from '../assets/images/hero-thumb.png'
-import heroBackground from '../assets/images/hero-background.jfif'
+import heroBackground from '../assets/images/breadcumb-bg.png'
 import aboutImg from '../assets/images/about-thumb.png'
 
 const Home = () => {
