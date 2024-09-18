@@ -62,10 +62,7 @@ const ServiceDetail = () => {
                                             <div className="service-detalis-text-box">
                                                 <div className="service-details-content">
                                                     <h4>Why Choose Us</h4>
-                                                    <p>Alternative innovation to ethical network
-                                                        environmental whiteboard pursue
-                                                        compelling results for premier  methods
-                                                        empowerment forward.</p>
+                                                    <p style={{textAlign:'justify'}}> we provide innovative, scalable IT solutions tailored to meet your business's unique needs. With a focus on excellence and staying ahead of industry trends, we ensure your business remains competitive in the digital landscape. Our flexible, high-quality services empower growth and efficiency, while our customer-centric approach guarantees personalized support for overcoming any IT challenges. Partner with us for reliable, cutting-edge solutions that drive your business forward.</p>
                                                 </div>
                                                 <div className="service-details-list">
                                                     <ul>
@@ -84,11 +81,7 @@ const ServiceDetail = () => {
                                                 </div>
                                                 <div className="service-det-content">
                                                     <h3>Empowering Your Success</h3>
-                                                    <p>Alternative innovation to ethical network
-                                                        environmental whiteboard pursue
-                                                        compelling results for premier  methods
-                                                        empowerment forward environmental
-                                                        whiteboard pursue process dsign.
+                                                    <p style={{textAlign:'justify'}}>We deliver ethical, innovative solutions that drive impactful results, combining sustainable methods with forward-thinking strategies. Our focus on process design and continuous improvement ensures lasting success in today’s dynamic environment.
                                                     </p>
                                                 </div>
                                             </div>

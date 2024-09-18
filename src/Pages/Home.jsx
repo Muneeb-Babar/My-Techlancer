@@ -49,7 +49,7 @@ const Home = () => {
             <Faq></Faq>
             <Testimonial1></Testimonial1>
             <Contact1></Contact1>
-            <Blog1></Blog1>
+            {/* <Blog1></Blog1> */}
         </div>
     );
 };

@@ -17,8 +17,8 @@ import FaqPage from "../Pages/FaqPage";
 import Contact from "../Pages/Contact";
 import Services from "../Pages/Services";
 import ServiceDetails from "../Pages/ServiceDetails";
-import Blog from "../Pages/Blog";
-import BlogSidebar from "../Pages/BlogSidebar";
+// import Blog from "../Pages/Blog";
+// import BlogSidebar from "../Pages/BlogSidebar";
 import BlogDetails from "../Pages/BlogDetails";
 import Project from "../Pages/Project";
 
@@ -71,18 +71,18 @@ export const router = createBrowserRouter([
           path: "/faq",
           element: <FaqPage></FaqPage>,
         },
-        {
-          path: "/blog",
-          element: <Blog></Blog>,
-        }, 
+        // {
+        //   path: "/blog",
+        //   element: <Blog></Blog>,
+        // }, 
         {
           path: "/blog/blog-details",
           element: <BlogDetails></BlogDetails>,
         },           
-        {
-          path: "/blog-sidebar",
-          element: <BlogSidebar></BlogSidebar>,
-        },              
+        // {
+        //   path: "/blog-sidebar",
+        //   element: <BlogSidebar></BlogSidebar>,
+        // },              
         {
           path: "/contact",
           element: <Contact></Contact>,

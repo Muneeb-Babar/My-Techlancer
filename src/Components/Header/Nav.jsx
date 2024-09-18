@@ -103,7 +103,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown>
 
       </li>      
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link to="/blog" onClick={() => setMobileToggle(false)}>
           Blog
         </Link>
@@ -129,7 +129,7 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown>
-      </li>
+      </li> */}
       <li>
         <Link to="/contact" onClick={() => setMobileToggle(false)}>
           Contact
