@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import VideoModal from '../VideoModal/VideoModal';
 
+import aboutLogo from '../../assets/images/about-logo.png'
+
 const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,BoxTitle2}) => {
 
 
@@ -26,7 +28,7 @@ const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,
 							<div className="section-title text-left">
 								<h5 className="section-sub-title">{SubTitle}</h5>
 								<h1 className="section-main-title">{parse(Title)}</h1>
-								<p className="section-title-descr">{Content}
+								<p className="section-title-descr" style={{textAlign:'justify'}}>{Content}
 								</p>
 							</div>
 							<div className="about-us-content">
@@ -47,7 +49,7 @@ const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,
 								<div className="col-lg-3 col-md-6 col-sm-6">
 									<div className="single-counter-box">
 										<div className="counter-icon">
-											<img src="/assets/images/inner/counter-icon.png" alt="icon" />
+											<img src={aboutLogo} width={70} alt="icon" />
 										</div>
 										<div className="counter-content">
 											<h4 className="counter">{BoxTitle1}</h4>
@@ -63,12 +65,12 @@ const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,
 								<div className="about-us-img">
 									<img src={MainImg} alt="thumb" />
 								</div>
-								<div className="about-us-video-icon" onClick={handelClick}>	
+								{/* <div className="about-us-video-icon" onClick={handelClick}>	
 									<span className="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true"><i className="bi bi-play"></i><span>WATCH VIDEO</span></span>
 								</div>
 								<div className="about-us-shape">
 									<img src="/assets/images/inner/us-shape.png" alt="shape" />
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
