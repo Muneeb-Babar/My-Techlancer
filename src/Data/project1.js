@@ -22,115 +22,130 @@ import img21 from "../assets/images/projects/Twins-EP-Security-Transportation-LL
 import img22 from "../assets/images/projects/Waddell-Wanderlust.png";
 
 export const data = [
-    {
-      "img": img1,
-      "title": "Conserva Wrap",
-      "desc": "Packaging Solution"
-    },
-    {
-      "img": img2,
-      "title": "Consulting IT Marketing",
-      "desc": "Consulting Services"
-    },
-    {
-      "img": img3,
-      "title": "Custom Home Remodeling",
-      "desc": "Home Renovation"
-    },
-    {
-      "img": img4,
-      "title": "Doin' Time",
-      "desc": "Time Management App"
-    },
-    {
-      "img": img5,
-      "title": "DOWM Real Estate",
-      "desc": "Real Estate Services"
-    },
-    // {
-    //   "img": img6,
-    //   "title": "Elevate with Embry",
-    //   "desc": "Personal Development"
-    // },
-    {
-      "img": img7,
-      "title": "Estate Services Carolina",
-      "desc": "Real Estate Services"
-    },
-    {
-      "img": img8,
-      "title": "Evenflow Concrete Placement",
-      "desc": "Construction Services"
-    },
-    {
-      "img": img9,
-      "title": "Goldstar Realty",
-      "desc": "Realty Solutions"
-    },
-    // {
-    //   "img": img0,
-    //   "title": "Honeysopt Pizza",
-    //   "desc": "Best Italian Pizza"
-    // },
-    {
-      "img": img11,
-      "title": "Hot Koolaid",
-      "desc": "Beverage Company"
-    },
-    {
-      "img": img12,
-      "title": "Interpersonal Communication & Mental Health",
-      "desc": "Mental Health Consulting"
-    },
-    {
-      "img": img13,
-      "title": "Jibran Construction",
-      "desc": "Construction Company"
-    },
-    {
-      "img": img14,
-      "title": "Little Luxe Apparels",
-      "desc": "Children's Clothing"
-    },
-    {
-      "img": img15,
-      "title": "NEON NIGHTS ENTERTAINMENT",
-      "desc": "Event Planning"
-    },
-    {
-      "img": img16,
-      "title": "ROLF WYSOCK",
-      "desc": "Design Services"
-    },
-    {
-      "img": img17,
-      "title": "Savior",
-      "desc": "Personal Safety App"
-    },
-    {
-      "img": img18,
-      "title": "Shop Art by Tami Waddell",
-      "desc": "Artistic Services"
-    },
-    {
-      "img": img19,
-      "title": "Syla LLC",
-      "desc": "Consulting Services"
-    },
-    {
-      "img": img20,
-      "title": "Tetmann Energies Nigeria Ltd",
-      "desc": "Energy Solutions"
-    },
-    {
-      "img": img21,
-      "title": "Twins EP Security Transportation",
-      "desc": "Security and Transportation"
-    },
-    {
-      "img": img22,
-      "title": "Waddell Wanderlust",
-      "desc": "Travel Services"
-    }
-  ]
-  
+  {
+    img: img1,
+    title: "Conserva Wrap",
+    desc: "Packaging Solution",
+    category: "Marketing", // Assign category here
+  },
+  {
+    img: img2,
+    title: "Consulting IT Marketing",
+    desc: "Consulting Services",
+    category: "Marketing",
+  },
+  {
+    img: img3,
+    title: "Custom Home Remodeling",
+    desc: "Home Renovation",
+    category: "Technology",
+  },
+  {
+    img: img4,
+    title: "Doin' Time",
+    desc: "Time Management App",
+    category: "Software",
+  },
+  {
+    img: img5,
+    title: "DOWM Real Estate",
+    desc: "Real Estate Services",
+    category: "Real Estate",
+  },
+  // {
+  //   img: img6,
+  //   title: "Elevate with Embry",
+  //   desc: "Personal Development",
+  //   category: "Personal Development"
+  // },
+  {
+    img: img7,
+    title: "Estate Services Carolina",
+    desc: "Real Estate Services",
+    category: "Real Estate",
+  },
+  {
+    img: img8,
+    title: "Evenflow Concrete Placement",
+    desc: "Construction Services",
+    category: "Technology",
+  },
+  {
+    img: img9,
+    title: "Goldstar Realty",
+    desc: "Realty Solutions",
+    category: "Real Estate",
+  },
+  {
+    img: img11,
+    title: "Hot Koolaid",
+    desc: "Beverage Company",
+    category: "Marketing",
+  },
+  {
+    img: img12,
+    title: "Interpersonal Communication & Mental Health",
+    desc: "Mental Health Consulting",
+    category: "Helpdesk",
+  },
+  {
+    img: img13,
+    title: "Jibran Construction",
+    desc: "Construction Company",
+    category: "Technology",
+  },
+  {
+    img: img14,
+    title: "Little Luxe Apparels",
+    desc: "Children's Clothing",
+    category: "Marketing",
+  },
+  {
+    img: img15,
+    title: "NEON NIGHTS ENTERTAINMENT",
+    desc: "Event Planning",
+    category: "Marketing",
+  },
+  {
+    img: img16,
+    title: "ROLF WYSOCK",
+    desc: "Design Services",
+    category: "Marketing",
+  },
+  {
+    img: img17,
+    title: "Savior",
+    desc: "Personal Safety App",
+    category: "Software",
+  },
+  {
+    img: img18,
+    title: "Shop Art by Tami Waddell",
+    desc: "Artistic Services",
+    category: "Marketing",
+  },
+  {
+    img: img19,
+    title: "Syla LLC",
+    desc: "Consulting Services",
+    category: "Helpdesk",
+  },
+  {
+    img: img20,
+    title: "Tetmann Energies Nigeria Ltd",
+    desc: "Energy Solutions",
+    category: "Technology",
+  },
+  {
+    img: img21,
+    title: "Twins EP Security Transportation",
+    desc: "Security and Transportation",
+    category: "Helpdesk",
+  },
+  {
+    img: img22,
+    title: "Waddell Wanderlust",
+    desc: "Travel Services",
+    category: "Marketing",
+  },
+];
