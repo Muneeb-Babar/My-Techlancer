@@ -5342,7 +5342,7 @@ ul.list-style-one li a:hover {
   content: '';
   width: 2px;
   height: 166px;
-  background-image: linear-gradient(0deg, #ff3b00 0%, #05091d 100%);
+  background-image: linear-gradient(0deg, #008eb2 0%, #05091d 100%);
   left: 13px;
   bottom: 200px;
 }
@@ -5352,7 +5352,7 @@ ul.list-style-one li a:hover {
   content: '';
   width: 2px;
   height: 166px;
-  background-image: linear-gradient(0deg, #05091d 0%, #ff3b00 100%);
+  background-image: linear-gradient(0deg, #05091d 0%, #008eb2 100%);
   left: 13px;
   bottom: 36px;
 }
@@ -7108,7 +7108,7 @@ button.icons {
 .case_study_menu ul li::before {
   animation: opacityFallbackOut 0.5s step-end forwards;
   backface-visibility: hidden;
-  background-color: #00aff5;
+  background-color: #008eb2;
   clip-path: polygon(-1% 0, 0 0, -25% 104%, -1% 100%);
   content: "";
   height: 100%;
@@ -7588,7 +7588,7 @@ p.blog-details-desc.three {
 }
 
 .blog-details-category span a.active-class {
-  background: #ff3b00;
+  background: #008eb2;
   color: #fff;
 }
 
@@ -8816,7 +8816,7 @@ p.blog-details-desc.three {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ff3d00;
+  background-color: #008eb2;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   cursor: pointer;
@@ -8862,7 +8862,7 @@ p.blog-details-desc.three {
 }
 .solutek-btn2 a {
   display: inline-block;
-  background: #ff3b00;
+  background: #008eb2;
   text-decoration: none;
   padding: 12px 30px;
   font-size: 16px;
@@ -8920,6 +8920,6 @@ z-index: 999;
   transition: 0.5s;
 }
 .menu-filtering li.active{
-  background-color: #00aff5;
+  background-color: #008eb2;
   color: #fff;
 }

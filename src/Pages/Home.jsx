@@ -1,11 +1,11 @@
 import About1 from "../Components/About/About1";
 import Hero1 from "../Components/Banner/Hero1";
-import Blog1 from "../Components/Blog/Blog1";
+// import Blog1 from "../Components/Blog/Blog1";
 import Brand from "../Components/Brand/Brand";
 import Contact1 from "../Components/Contact/Contact1";
 import Faq from "../Components/Faq/Faq";
 // import Features from "../Components/Features/Features";
-import Pricing from "../Components/Pricing/Pricing";
+// import Pricing from "../Components/Pricing/Pricing";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial2 from "../Components/Testimonial/Testimonial2";
@@ -45,7 +45,7 @@ const Home = () => {
                 ClassAdd="project-area"
             ></Project1>
             <Brand></Brand>
-            <Pricing></Pricing>
+            {/* <Pricing></Pricing> */}
             <Faq></Faq>
             <Testimonial2></Testimonial2>
             <Contact1></Contact1>
