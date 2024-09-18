@@ -8,7 +8,7 @@ import Faq from "../Components/Faq/Faq";
 import Pricing from "../Components/Pricing/Pricing";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
-import Testimonial1 from "../Components/Testimonial/Testimonial1";
+import Testimonial2 from "../Components/Testimonial/Testimonial2";
 
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
@@ -47,7 +47,7 @@ const Home = () => {
             <Brand></Brand>
             <Pricing></Pricing>
             <Faq></Faq>
-            <Testimonial1></Testimonial1>
+            <Testimonial2></Testimonial2>
             <Contact1></Contact1>
             {/* <Blog1></Blog1> */}
         </div>

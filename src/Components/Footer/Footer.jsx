@@ -18,7 +18,6 @@ const Footer = () => {
       const UsefulLinks = [
         {title:'About Company', link:'/about'},
         {title:'Meet Our Team', link:'/team'},
-        // {title:'Latest Blog', link:'/blog'},
         {title:'Contact Us', link:'/contact'},
         {title:'Testimonials', link:'/testimonial'}
       ];  
@@ -79,7 +78,7 @@ const Footer = () => {
                                 <div className="footer-logo">
                                 <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
-                                <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem',color:'white'}}>{LogoContent.Content}</p>
+                                <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem',color:'white',marginTop:'-30px'}}>{LogoContent.Content}</p>
                                 <div className="footer-social" style={{marginLeft:'1.7rem'}}>
                                     <div className="footer-widget-social">
                                         <a href="#"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>

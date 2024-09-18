@@ -2769,7 +2769,7 @@ a.active {
   border-radius: 0;
   background-color: inherit;
   display: inline-block;
-  color: #d0a37c;
+  color: #008eb2;
   font-size: 22px;
   margin-right: 8px;
   position: relative;
@@ -2781,7 +2781,7 @@ a.active {
 }
 
 .study-button a:hover i {
-  color: #d0a37c;
+  color: #008eb2;
 }
 
 /* Faq New Style */
@@ -3404,7 +3404,8 @@ ul.testi-rating li {
 =======================================*/
 
 .footer-area {
-  background: url(../assets/images/footerbg.jpg);
+  /* background: url(../assets/images/footerbg.jpg); */
+  background: url(../assets/images/breadcumb-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

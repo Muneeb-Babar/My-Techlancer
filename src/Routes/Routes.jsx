@@ -4,10 +4,10 @@ import {
 import Main from "../Layout/Main";
 import About from "../Pages/About";
 import Home from "../Pages/Home";
-import Layout2 from "../Layout/Layout2";
-import Home2 from "../Pages/Home2";
-import Layout3 from "../Layout/Layout3";
-import Home3 from "../Pages/Home3";
+// import Layout2 from "../Layout/Layout2";
+// import Home2 from "../Pages/Home2";
+// import Layout3 from "../Layout/Layout3";
+// import Home3 from "../Pages/Home3";
 import Team from "../Pages/Team";
 import TeamDetails from "../Pages/TeamDetails";
 import Testimonial from "../Pages/Testimonial";
@@ -19,7 +19,7 @@ import Services from "../Pages/Services";
 import ServiceDetails from "../Pages/ServiceDetails";
 // import Blog from "../Pages/Blog";
 // import BlogSidebar from "../Pages/BlogSidebar";
-import BlogDetails from "../Pages/BlogDetails";
+// import BlogDetails from "../Pages/BlogDetails";
 import Project from "../Pages/Project";
 
 export const router = createBrowserRouter([
@@ -75,10 +75,10 @@ export const router = createBrowserRouter([
         //   path: "/blog",
         //   element: <Blog></Blog>,
         // }, 
-        {
-          path: "/blog/blog-details",
-          element: <BlogDetails></BlogDetails>,
-        },           
+        // {
+        //   path: "/blog/blog-details",
+        //   element: <BlogDetails></BlogDetails>,
+        // },           
         // {
         //   path: "/blog-sidebar",
         //   element: <BlogSidebar></BlogSidebar>,

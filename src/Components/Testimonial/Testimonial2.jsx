@@ -2,6 +2,9 @@ import Slider from "react-slick";
 import data from '../../Data/testimonial1.json';
 import SectionTitle from "../Common/SectionTitle";
 
+
+import { SiComma } from "react-icons/si";
+
 const Testimonial2 = () => {
 
       const settings = {
@@ -54,7 +57,8 @@ const Testimonial2 = () => {
                                         <div className="testi-single-box">
                                             <div className="testi-box-inner">
                                                 <div className="testi-icon">
-                                                    <img src="/assets/images/testi1.png" alt="testi1" />
+                                                <SiComma size={20} color="#008eb2" /><SiComma size={20} color="#008eb2"/>
+                                                    {/* <img src="/assets/images/testi1.png" alt="testi1" /> */}
                                                 </div>
                                                 <div className="testi-content">
                                                     <p className="testi-desc">{item.desc}</p>
