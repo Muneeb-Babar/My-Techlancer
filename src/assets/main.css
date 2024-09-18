@@ -6245,7 +6245,7 @@ li.list-arrow {
   content: "";
   width: 304px;
   height: 300px;
-  background-image: url(/assets/images/inner/team-shape.png);
+  /* background-image: url(../assets/images/breadcumb-bg.png); */
   background-repeat: no-repeat;
   bottom: -150px;
   left: 0;
@@ -6307,7 +6307,7 @@ li.list-arrow {
 }
 
 .team-area.style-inner li.list-line a {
-  color: red !important;
+  color: #008eb2 !important;
   text-decoration: underline !important;
 }
 
@@ -6389,8 +6389,8 @@ li.list-arrow {
 
 .team-details-area .contact-info-icon i {
   display: inline-block;
-  color: #ff3b00;
-  border: 2px solid #ff3b00;
+  color: #008eb2;
+  border: 2px solid #008eb2;
   width: 60px;
   height: 60px;
   border-radius: 50%;

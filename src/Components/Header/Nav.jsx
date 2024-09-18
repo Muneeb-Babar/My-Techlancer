@@ -40,11 +40,11 @@ export default function Nav({ setMobileToggle }) {
                Our Team
               </Link>
             </li>            
-            <li>
+            {/* <li>
               <Link to="/team/team-details" onClick={() => setMobileToggle(false)}>
                 Team Details
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/testimonial" onClick={() => setMobileToggle(false)}>
               Testimonial
@@ -55,11 +55,11 @@ export default function Nav({ setMobileToggle }) {
                 Project
               </Link>
             </li>           
-            <li>
+            {/* <li>
               <Link to="/project/project-details" onClick={() => setMobileToggle(false)}>
                  Project Details
               </Link>
-            </li> 
+            </li>  */}
             <li>
               <Link to="/pricing" onClick={() => setMobileToggle(false)}>
               Pricing

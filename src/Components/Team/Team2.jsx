@@ -1,5 +1,5 @@
 import SectionTitle from "../Common/SectionTitle";
-import data from '../../Data/team2.json';
+import data from '../../Data/team2';
 
 const Team2 = () => {
     return (
