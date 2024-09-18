@@ -101,6 +101,7 @@ const Projecr3 = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     padding: "10px",
+                    border:'1px solid #008eb2'
                   }}
                 >
                   <div className="case-study-title" >
