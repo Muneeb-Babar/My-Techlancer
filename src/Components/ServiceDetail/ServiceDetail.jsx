@@ -200,7 +200,6 @@ const ServiceDetail = () => {
                                         </div>
                                         <div className="widget-sidber-download-button">
                                             <a href="#"><i className="bi bi-file-earmark-pdf"></i>Service Report<span><i className="bi bi-download"></i></span></a>
-
                                             <a className="active" href="#"><i className="bi bi-file-earmark-pdf"></i>Download Lists<span><i className="bi bi-download"></i></span></a>
                                         </div>
                                     </div> */}
