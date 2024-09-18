@@ -3417,10 +3417,10 @@ ul.testi-rating li {
 }
 
 p.footer-widget-text {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-size: 16px;
   line-height: 26px;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 400;
   font-family: "Fira Sans";
   margin: 0;
@@ -3450,7 +3450,7 @@ p.footer-widget-text {
 
 .footer-widget.left ul li a {
   display: inline-block;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-size: 16px;
   line-height: 40px;
   color: #ffffff;
@@ -3477,7 +3477,7 @@ p.footer-widget-text {
 }
 
 p.newsletter-text {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   font-size: 16px;
   line-height: 26px;
   color: #ffffff;

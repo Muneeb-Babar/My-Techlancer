@@ -18,18 +18,18 @@ const Footer = () => {
       const UsefulLinks = [
         {title:'About Company', link:'/about'},
         {title:'Meet Our Team', link:'/team'},
-        {title:'Latest Blog', link:'/blog'},
+        // {title:'Latest Blog', link:'/blog'},
         {title:'Contact Us', link:'/contact'},
         {title:'Testimonials', link:'/testimonial'}
       ];  
 
       const LogoContent = {
         img1:{logo},
-        Content:'Globally monetizing plug-and-play IT solutions, we specialize in seamless data integration and business-focused strategies. Our multifunctional approach delivers efficient, customized solutions designed to drive growth and success across industries.'
+        Content:'At My Techlancer, we deliver seamless plug-and-play IT solutions with a focus on data integration and business-driven strategies, providing efficient, customized services that drive growth and success across industries.'
       }
 
       const NewsletterContent = {
-            Content:'Globally monetizing plug-and-play IT solutions, we specialize in seamless data integration and business-focused strategies. Our multifunctional approach delivers efficient, customized solutions designed to drive growth and success across industries.'
+            Content:'Stay updated with the latest in IT solutions and business strategies by subscribing to our newsletter. Get insights, tips, and news on how to drive growth and success with innovative technology, delivered straight to your inbox.'
       }
 
       const AdressContent = {
@@ -79,7 +79,7 @@ const Footer = () => {
                                 <div className="footer-logo">
                                 <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
-                                <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem'}}>{LogoContent.Content}</p>
+                                <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem',color:'white'}}>{LogoContent.Content}</p>
                                 <div className="footer-social" style={{marginLeft:'1.7rem'}}>
                                     <div className="footer-widget-social">
                                         <a href="#"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
@@ -109,7 +109,7 @@ const Footer = () => {
                                 </div>
                                 <ul>
                                 {Services.map((item, i) => ( 
-                                    <li key={i}><Link to="/service/service-details">{item}</Link></li>
+                                    <li key={i}><Link to="">{item}</Link></li>
                                 ))}
                                 </ul>
                             </div>
@@ -137,14 +137,14 @@ const Footer = () => {
                                 <p style={{color:'white',marginLeft:'12px'}}>© Copyright 2024 By My Techlancer</p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        {/* <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="copyright-list">
                                 <ul>
                                     <li><Link to="/">Privacy Policy</Link></li>
                                     <li><Link to="/">Supports</Link></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 	        </div>
