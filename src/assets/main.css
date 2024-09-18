@@ -2404,7 +2404,7 @@ p.project-text::before {
   content: "";
   height: 100%;
   width: 100%;
-  background: #ff3d00;
+  background: #008eb2;
   left: 0;
   top: 0;
   z-index: -12;
@@ -2418,7 +2418,7 @@ p.project-text:hover::before {
 }
 
 h3.project-title a:hover {
-  color: #ff3d00;
+  color: #008eb2 !important;
 }
 
 .project-area .owl-dots {
@@ -2430,7 +2430,7 @@ h3.project-title a:hover {
 .owl-dot.active {
   width: 10px;
   height: 10px;
-  background: #ff3d00;
+  background: #008eb2;
   display: inline-block;
   margin-right: 26px;
   border-radius: 50%;
@@ -2469,7 +2469,7 @@ h3.project-title a:hover {
 =======================================*/
 
 .brand-area {
-  background: #ff3d00;
+  background: #008eb2;
   padding: 41px 0;
   margin: 0 49px 0;
   left: 0;

@@ -41,7 +41,7 @@ const Brand = () => {
       };      
 
     return (
-        <div className="brand-area">
+        <div className="brand-area" style={{marginBottom: "1rem", backgroundColor: "#008eb2"}}>
             <div className="container">
                 <div className="row">
                     <div className="brand_list owl-carousel">
