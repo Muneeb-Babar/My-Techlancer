@@ -44,7 +44,7 @@ const Testimonial2 = () => {
                         <div className="section-title text-center">
                             <SectionTitle
                                     SubTitle="CLIENTS FEEDBACK"
-                                    Title="Perspectives and Experiences"
+                                    Title="What Our Customer <span>Says</span>"
                             ></SectionTitle>
                         </div>
                     </div>
@@ -52,10 +52,10 @@ const Testimonial2 = () => {
                         <div className="testi_list owl-carousel cs_slider_gap_301">
                             <Slider {...settings}>
                                 {data.map((item, index)=>(
-                                <div key={index} className="col-lg-12 col-md-12">
+                                <div key={index} className="col-lg-12 col-md-12" >
                                     <div className="testi-box">
-                                        <div className="testi-single-box">
-                                            <div className="testi-box-inner">
+                                        <div className="testi-single-box" >
+                                            <div className="testi-box-inner" >
                                                 <div className="testi-icon">
                                                 <SiComma size={20} color="#008eb2" /><SiComma size={20} color="#008eb2"/>
                                                     {/* <img src="/assets/images/testi1.png" alt="testi1" /> */}
@@ -72,9 +72,9 @@ const Testimonial2 = () => {
                                                     <h3 className="testi-user-name">{item.title}<span>{item.subTitle}</span></h3>
                                                 </div>
                                             </div>
-                                            <div className="testi-author">
+                                            {/* <div className="testi-author">
                                                 <img src={item.image} alt="testi" />
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

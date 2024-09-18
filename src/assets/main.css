@@ -2988,7 +2988,7 @@ ul.testi-rating li {
   content: "";
   height: 0;
   width: 100%;
-  background: url(/assets/images/home-two/test-box.png);
+  background: url(../assets/images/breadcumb-bg.png);
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
