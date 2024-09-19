@@ -1,5 +1,5 @@
 import { useState } from "react";
-import  data  from "../../Data/project2";
+import  {data}  from "../../Data/project2.js";
 import { Link } from "react-router-dom";
 
 const Projecr3 = () => {
