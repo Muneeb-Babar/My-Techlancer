@@ -253,8 +253,7 @@ export const data = [
     desc: "Travel Services",
     category: "Marketing",
   },
-
-    {
+  {
       img: gamingImg1,
       title: "Gaming Asset 1",
       desc: "A high-resolution texture for game environments.",
