@@ -61,7 +61,7 @@ const Testimonial2 = () => {
                                                     {/* <img src="/assets/images/testi1.png" alt="testi1" /> */}
                                                 </div>
                                                 <div className="testi-content">
-                                                    <p className="testi-desc">{item.desc}</p>
+                                                    <p className="testi-desc" style={{textAlign:'justify'}}>{item.desc}</p>
                                                     <ul className="testi-rating">
                                                         <li><i className="bi bi-star-fill"></i></li>
                                                         <li><i className="bi bi-star-fill"></i></li>
