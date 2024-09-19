@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 import { SiComma } from "react-icons/si";
 
-const Testimonial2 = () => {
+const Testimonial2 = () => { 
 
       const settings = {
         dots: false,
