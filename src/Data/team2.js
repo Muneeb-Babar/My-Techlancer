@@ -1,28 +1,43 @@
- import firstMember from '../assets/images/teamMembers/first.png'
- import secondMember from '../assets/images/teamMembers/second.png'
- import thirdMember from '../assets/images/teamMembers/third.png'
- import fourthMember from '../assets/images/teamMembers/fourth.png'
- 
- const data=[
+
+import team1 from '../assets/images/teamMembers/ceo.jpeg'
+import team2 from '../assets/images/teamMembers/supervisor.jpeg'
+import team3 from '../assets/images/teamMembers/sales-manager.jpeg'
+import team4 from '../assets/images/teamMembers/sales1-ex.jpeg'
+import team5 from '../assets/images/teamMembers/sales2-ex.jpeg'
+import team6 from '../assets/images/teamMembers/bussniess.jpeg'
+
+
+
+const data=[
   {
-    "img": firstMember,  
-    "title": "Al-Amin Hossain",
-    "desc": "UI/UX DESIGNER"
+    "img": team1,  
+    "title": "Muhammad Yaseen",
+    "desc": "Founder"
   },
   {
-    "img": secondMember,  
-    "title": "Kathryn Murphy",
-    "desc": "UI/UX DESIGNER"
+    "img": team2,  
+    "title": "Eeshan Aslam",
+    "desc": "Supervisor"
   },
   {
-    "img": thirdMember,  
-    "title": "Darlene Robertson",
-    "desc": "UI/UX DESIGNER"
+    "img": team3,  
+    "title": "Syed Mehboob",
+    "desc": "Sales Manager"
   },  
   {
-    "img": fourthMember,  
-    "title": "Cameron William",
-    "desc": "UI/UX DESIGNER"
+    "img": team4,  
+    "title": "Muhib Nadeem",
+    "desc": "Sales Executive"
+  },
+  {
+    "img": team5,  
+    "title": "Mubashir Ahmed",
+    "desc": "Sales Executive"
+  },
+  {
+    "img": team6,  
+    "title": "Mansoor jabbar",
+    "desc": "business Development Officer"
   }
 ]
 

@@ -7,7 +7,7 @@ const About1 = ({MainImg,ImgTitle,SubTitle,Title,Content,listTitle,BottomText,Bt
                     <div className="row align-items-center container">
                         <div className="col-lg-6 col-lg-6 pl-50">
                             <div className="about-thumb" style={{width:'100%'}}>
-                                <img src={MainImg} alt="about-thumb" />
+                                <img src={MainImg} alt="about-thumb" style={{borderRadius:'15px'}} />
                                 <div className="about-shape">
                                     <img src="/assets/images/about1.png" alt="about1" />
                                 </div>

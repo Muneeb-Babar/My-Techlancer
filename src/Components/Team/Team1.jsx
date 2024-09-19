@@ -20,7 +20,7 @@ const Team1 = () => {
                         <div key={i} className="col-xl-3 col-lg-4 col-md-6">
                             <div className="single-team-box">
                                 <div className="single-team-thumb">
-                                    <img src={item.img} alt="thumb" />
+                                    <img src={item.img} alt="thumb" style={{borderRadius:'10px'}}/>
                                     <div className="team-content">
                                         <div className="team-inner-title">
                                             <h4><a href="team-details.html">{item.title}</a></h4>
