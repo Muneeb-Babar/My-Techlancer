@@ -397,28 +397,120 @@ export const data = [
     desc: "Stylized terrain textures for fantasy worlds.",
     category: "Gaming Assets",
   },
-
-  { img: art3, title: "2D Art 1", desc: "A creative reinterpretation of classic art themes.", category: "2D Arts" },
-  { img: art4, title: "2D Art 2", desc: "A dynamic scene with complex background.", category: "2D Arts" },
-  { img: art5, title: "2D Art 3", desc: "A stylized depiction of a researcher in action.", category: "2D Arts" },
-  { img: art6, title: "2D Art 4", desc: "Anime-style character with green hair and tattoos.", category: "2D Arts" },
-  { img: art8, title: "2D Art 5", desc: "A beautifully rendered image of an aquatic-themed character.", category: "2D Arts" },
-  { img: art11, title: "2D Art 6", desc: "A character in a new hoodie, showcasing a casual look.", category: "2D Arts" },
-  { img: art12, title: "2D Art 7", desc: "A couple character design with intricate details.", category: "2D Arts" },
-  { img: art15, title: "2D Art 8", desc: "Autumn-themed character artwork with detailed background.", category: "2D Arts" },
-  { img: art16, title: "2D Art 9", desc: "A powerful depiction of a wolf in a dramatic pose.", category: "2D Arts" },
-  { img: art18, title: "2D Art 10", desc: "A fox with a distinctive grin, capturing a playful mood.", category: "2D Arts" },
-  { img: art19, title: "2D Art 11", desc: "A heartwarming illustration of furry characters hugging.", category: "2D Arts" },
-  { img: art20, title: "2D Art 12", desc: "A furry character in a stylish hat, exuding charm.", category: "2D Arts" },
-  { img: art21, title: "2D Art 13", desc: "A furry character dressed in top and shorts, showcasing a unique look.", category: "2D Arts" },
-  { img: art22, title: "2D Art 14", desc: "A furry character in a simple top, highlighting the design.", category: "2D Arts" },
-  { img: art23, title: "2D Art 15", desc: "A pinup-style furry character, rendered in a striking pose.", category: "2D Arts" },
-  { img: art24, title: "2D Art 16", desc: "An alien character with a distinctive green hue.", category: "2D Arts" },
-  { img: art25, title: "2D Art 17", desc: "A grey dragon illustration with detailed scales.", category: "2D Arts" },
-  { img: art26, title: "2D Art 18", desc: "A vibrant and colorful character artwork.", category: "2D Arts" },
-  { img: art27, title: "2D Art 19", desc: "A detailed character illustration with a bright palette.", category: "2D Arts" },
-
-
+  {
+    "img": "art3",
+    "title": "2D Art 1",
+    "desc": "A creative reinterpretation of classic art themes.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art4",
+    "title": "2D Art 2",
+    "desc": "A dynamic scene with complex background.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art5",
+    "title": "2D Art 3",
+    "desc": "A stylized depiction of a researcher in action.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art6",
+    "title": "2D Art 4",
+    "desc": "Anime-style character with green hair and tattoos.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art8",
+    "title": "2D Art 5",
+    "desc": "A beautifully rendered image of an aquatic-themed character.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art11",
+    "title": "2D Art 6",
+    "desc": "A character in a new hoodie, showcasing a casual look.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art12",
+    "title": "2D Art 7",
+    "desc": "A couple character design with intricate details.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art15",
+    "title": "2D Art 8",
+    "desc": "Autumn-themed character artwork with detailed background.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art16",
+    "title": "2D Art 9",
+    "desc": "A powerful depiction of a wolf in a dramatic pose.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art18",
+    "title": "2D Art 10",
+    "desc": "A fox with a distinctive grin, capturing a playful mood.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art19",
+    "title": "2D Art 11",
+    "desc": "A heartwarming illustration of furry characters hugging.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art20",
+    "title": "2D Art 12",
+    "desc": "A furry character in a stylish hat, exuding charm.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art21",
+    "title": "2D Art 13",
+    "desc": "A furry character dressed in top and shorts, showcasing a unique look.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art22",
+    "title": "2D Art 14",
+    "desc": "A furry character in a simple top, highlighting the design.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art23",
+    "title": "2D Art 15",
+    "desc": "A pinup-style furry character, rendered in a striking pose.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art24",
+    "title": "2D Art 16",
+    "desc": "An alien character with a distinctive green hue.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art25",
+    "title": "2D Art 17",
+    "desc": "A grey dragon illustration with detailed scales.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art26",
+    "title": "2D Art 18",
+    "desc": "A vibrant and colorful character artwork.",
+    "category": "2D Arts"
+  },
+  {
+    "img": "art27",
+    "title": "2D Art 19",
+    "desc": "A detailed character illustration with a bright palette.",
+    "category": "2D Arts"
+  },
   {
     img: art3D1,
     title: "3D Models 1",
