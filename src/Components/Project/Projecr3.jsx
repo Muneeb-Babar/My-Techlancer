@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { data } from "../../Data/project1";
+import  data  from "../../Data/project2";
 import { Link } from "react-router-dom";
 
 const Projecr3 = () => {
@@ -13,16 +13,24 @@ const Projecr3 = () => {
       category: "Software",
     },
     {
-      title: "Technology",
-      category: "Technology",
+      title: "Gaming Assets",
+      category: "Gaming Assets",
     },
     {
-      title: "Real Estate",
-      category: "Real Estate",
+      title: "2D Art",
+      category: "2D Art",
     },
     {
-      title: "Helpdesk",
-      category: "Helpdesk",
+      title: "3D Models",
+      category: "3D Models and Avatars",
+    },
+    {
+      title: "Brand Designing",
+      category: "Brand Designing",
+    },
+    {
+      title: "Interior Designing",
+      category: "Interior Designing",
     },
   ];
 
