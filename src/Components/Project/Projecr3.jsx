@@ -17,12 +17,12 @@ const Projecr3 = () => {
       category: "Gaming Assets",
     },
     {
-      title: "2D Art",
-      category: "2D Art",
+      title: "2D Arts",
+      category: "2D Arts",
     },
     {
       title: "3D Models",
-      category: "3D Models and Avatars",
+      category: "3D Models",
     },
     {
       title: "Brand Designing",
