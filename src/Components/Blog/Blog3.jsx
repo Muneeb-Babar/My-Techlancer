@@ -3,7 +3,7 @@ import data from '../../Data/blog.json';
 
 const Blog3 = () => {
     return (
-        <div className="blog-area style-grid">
+        <div className="blog-area style-Grid2">
             <div className="container">
                 <div className="row">
                 {data.map((item, i) => (
@@ -15,7 +15,7 @@ const Blog3 = () => {
                             <div className="blog-box-content">
                             <div className="meta-blog">
                                 <Link to="/blog/blog-details"><span><i className="bi bi-person-plus"></i>By wotech</span></Link>
-                                <p><span><img src="/assets/images/inner/grid-calen.png" alt="icon" /></span>January 5, 2024</p>
+                                <p><span><img src="/assets/images/inner/Grid2-calen.png" alt="icon" /></span>January 5, 2024</p>
                                 </div>
                                 <h3><Link to="/blog/blog-details">{item.title}
                                 </Link></h3>

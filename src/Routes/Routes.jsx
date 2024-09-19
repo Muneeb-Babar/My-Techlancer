@@ -21,6 +21,8 @@ import ServiceDetails from "../Pages/ServiceDetails";
 // import BlogSidebar from "../Pages/BlogSidebar";
 // import BlogDetails from "../Pages/BlogDetails";
 import Project from "../Pages/Project";
+import WebDevelopment from "../Pages/webDevelopment";
+import DigitalMarketing from "../Pages/DigitalMarketing";
 
 export const router = createBrowserRouter([
     {
@@ -71,6 +73,14 @@ export const router = createBrowserRouter([
           path: "/faq",
           element: <FaqPage></FaqPage>,
         },
+        {
+            path: "/webDevelopment",
+            element: <WebDevelopment></WebDevelopment>,
+          }, 
+          {
+            path: "/digitalMarketing",
+            element: <DigitalMarketing></DigitalMarketing>,
+          }, 
         // {
         //   path: "/blog",
         //   element: <Blog></Blog>,

@@ -67,7 +67,7 @@ const Projecr3 = () => {
         <div className="row image_load">
           {data.map((item, index) => (
             <div
-              className={`col-lg-6 col-sm-6 project-grid-area grid-item ${
+              className={`col-lg-6 col-sm-6 project-Grid2-area Grid2-item ${
                 active === "all"
                   ? ""
                   : !(active === item.category)

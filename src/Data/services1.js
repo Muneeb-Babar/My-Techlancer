@@ -12,14 +12,14 @@ const data = [
     "desc": "Build responsive and dynamic websites.",
     "icon": web,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/webDevelopment"
   },
   {
     "title": "Digital Marketing",
     "desc": "Boost your brand’s online presence.",
     "icon": digital,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/digitalMarketing"
   },
   {
     "title": "Graphic Design",
