@@ -256,7 +256,7 @@ export const data = [
   {
       img: gamingImg1,
       title: "Gaming Asset 1",
-      desc: "A high-resolution texture for game environments.",
+      desc: "A high-resolution texture  game environments.",
       category: "Gaming Assets",
     },
     {
