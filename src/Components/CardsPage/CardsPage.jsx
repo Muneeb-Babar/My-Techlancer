@@ -98,10 +98,11 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h4" fontWeight="bold">
+                <Typography variant="h3" fontWeight="bold" >
                   {heading1}
                 </Typography>
                 <Typography
+                style={{textAlign:'justify'}}
                   variant="body1"
                   sx={{
                     mt: 2,
@@ -140,10 +141,11 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h4" fontWeight="bold">
+                <Typography variant="h3" fontWeight="bold">
                   {heading2}
                 </Typography>
                 <Typography
+                style={{textAlign:'justify'}}
                   variant="body1"
                   sx={{
                     mt: 2,
@@ -182,10 +184,11 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h4" fontWeight="bold">
+                <Typography variant="h3" fontWeight="bold">
                   {heading3}
                 </Typography>
                 <Typography
+                style={{textAlign:'justify'}}
                   variant="body1"
                   sx={{
                     mt: 2,
