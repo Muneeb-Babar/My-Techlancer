@@ -100,7 +100,7 @@ import img88 from "../assets/images/projects/brandimages/brand9.jpg";
 import img89 from "../assets/images/projects/brandimages/brand10.jpg";
 
 // Define image arrays
-const data = [
+export const data = [
   { img: img1, title: "Conserva Wrap", desc: "Packaging Solution", category: "Marketing" },
   { img: img2, title: "Consulting IT Marketing", desc: "Consulting Services", category: "Technology" },
   { img: img3, title: "Custom Home Remodeling", desc: "Home Renovation", category: "RealEstate" },
@@ -222,4 +222,3 @@ const data = [
 // ];
 
 
-export default data;
