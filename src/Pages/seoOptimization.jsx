@@ -7,7 +7,7 @@ import OffPageSeo from "../assets/images/stacks/seo/offpage.jpg";
 const SeoOptimization = () => {
   const Comp1 = {
     img1: Seo,
-    heading1: "SEO (Search Engine Optimization)",
+    heading1: "SEO Optimization",
     para1: `Search Engine Optimization (SEO) is the practice of optimizing websites and content to improve their visibility 
             on search engine results pages (SERPs). By using a combination of technical, on-page, and off-page strategies, 
             businesses can increase their chances of ranking higher on search engines like Google, thereby attracting 
