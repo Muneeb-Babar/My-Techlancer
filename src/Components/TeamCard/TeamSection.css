@@ -1,6 +1,6 @@
 .team-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
     padding: 50px;

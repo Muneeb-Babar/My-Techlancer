@@ -5,6 +5,7 @@ import team3 from '../../assets/images/teamMembers/sales-manager.jpeg'
 import team4 from '../../assets/images/teamMembers/sales1-ex.jpeg'
 import team5 from '../../assets/images/teamMembers/sales2-ex.jpeg'
 import team6 from '../../assets/images/teamMembers/bussniess.jpeg'
+import SectionTitle from "../Common/SectionTitle";
 
 
 const teamMembers = [
@@ -56,10 +57,24 @@ const TeamCard = ({ member }) => {
 
 const TeamSection = () => {
   return (
+
+    <div className="container" style={{width:'100%',marginTop:'5rem'}}>
+      <div className="row">
+                <div className="col-lg-12">
+                    <div className="section-title text-center">
+                    <SectionTitle
+                            SubTitle="OUR TEAM MEMBER"
+                            Title="Dedicated Team Members"
+                        ></SectionTitle>
+                    </div>
+                </div>
+            </div>
+    
     <div className="team-section">
       {teamMembers.map((member, index) => (
         <TeamCard key={index} member={member} />
       ))}
+    </div>
     </div>
   );
 };
