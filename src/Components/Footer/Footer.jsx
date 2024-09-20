@@ -7,19 +7,19 @@ import logo from '../../assets/images/CardImages/whiteLogo.png'
 const Footer = () => {
 
     const location = useLocation();
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location]);
 
     const Services = [
-        { title: 'Web Development', linkServives: '/services/web-development' },
-        { title: 'Digital Marketing', linkServives: '/services/digital-marketing' },
-        { title: 'Social Media Handling', linkServives: '/services/social-media-handling' },
-        { title: 'Gaming Assets', linkServives: '/services/gaming-assets' },
-        { title: 'Graphic Design', linkServives: '/services/graphic-design' },
-        { title: 'Search Engine Optimization', linkServives: '/services/seo' },
-        { title: '2D/3D Character Modeling', linkServives: '/services/2d-3d-modeling' }
+        { title: 'Web Development', linkServives: 'webDevelopment' },
+        { title: 'Digital Marketing', linkServives: 'digitalMarketing' },
+        { title: 'Social Media Handling', linkServives: 'socialMarketing' },
+        { title: 'Gaming Assets', linkServives: 'gamingAssets' },
+        { title: 'Graphic Design', linkServives: 'graphicDesign' },
+        { title: 'Search Engine Optimization', linkServives: 'seoOptimization' },
+        { title: '2D/3D Character Modeling', linkServives: 'art' }
     ];
       const UsefulLinks = [
         {title:'About Company', link:'/about'},

@@ -164,7 +164,7 @@ const Project1 = ({ bgImage, ClassAdd }) => {
                     </div>
                     <div className="project-content">
                       <h3 className="project-title">
-                        <Link to="#">{item.title}</Link>
+                        {/* <Link to="#">{item.title}</Link> */}
                       </h3>
                       <p className="project-text">{item.desc}</p>
                     </div>

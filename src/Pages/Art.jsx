@@ -12,10 +12,10 @@ import icon4 from '../assets/images/stacks/art/icon4.png'
 
 const Art = () => {
   const techStacks = [
-    { name: "SEO", src: icon1 },
-    { name: "Analysis", src: icon2 },
-    { name: "Emal", src: icon3 },
-    { name: "Affiliate", src: icon4 }
+    { name: "", src: icon1 },
+    { name: "", src: icon2 },
+    { name: "", src: icon3 },
+    { name: "", src: icon4 }
   ];
 
   const Comp1 = {

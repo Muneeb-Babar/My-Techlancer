@@ -4263,6 +4263,8 @@ h3.blog-title-two a {
 
 .breadcumb-content h4 {
     font-size: 38px;
+    padding: 15px;
+    line-height: 1;
 }
 
 .team-details-area .team-member-title h4 {
