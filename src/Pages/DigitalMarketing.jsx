@@ -6,7 +6,7 @@ import Email from "../assets/images/stacks/web/email.png";
 import Hubspot from "../assets/images/stacks/web/hubspot.png";
 import Affiliate from "../assets/images/stacks/web/affiliate-marketing.png";
 
-const AppDevelopment = () => {
+const digitalMarketing = () => {
   const techStacks = [
     { name: "SEO", src: Seo },
     { name: "Analysis", src: Analysis },
@@ -43,4 +43,4 @@ const AppDevelopment = () => {
   );
 };
 
-export default AppDevelopment;
+export default digitalMarketing;
