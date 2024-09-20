@@ -21,10 +21,6 @@ const Projecr3 = () => {
       category: "Technology",
     },
     {
-      title: "Helpdesk",
-      category: "Helpdesk",
-    },
-    {
       title: "Gaming Assets",
       category: "Gaming Assets",
     },
