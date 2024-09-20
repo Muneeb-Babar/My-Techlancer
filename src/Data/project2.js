@@ -209,7 +209,7 @@ const brandDesignImages = [
 ];
 
 // Combine all images into a single data array
- const data = [
+export const data = [
   ...marketingImages,
   ...gamingImages,
   ...art2DImages,
@@ -218,4 +218,3 @@ const brandDesignImages = [
   ...brandDesignImages,
 ];
 
-export default data
