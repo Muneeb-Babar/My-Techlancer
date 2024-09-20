@@ -14,7 +14,7 @@ const Projecr3 = () => {
     },
     {
       title: "Real Estate",
-      category: "Real Estate",
+      category: "Real-Estate",
     },
     {
       title: "Technology",
@@ -22,23 +22,23 @@ const Projecr3 = () => {
     },
     {
       title: "Gaming Assets",
-      category: "Gaming Assets",
+      category: "Gaming-Assets",
     },
     {
       title: "2D Arts",
-      category: "2D Arts",
+      category: "2D-Arts",
     },
     {
       title: "3D Models",
-      category: "3D Models",
+      category: "3D-Models",
     },
     {
       title: "Brand Designing",
-      category: "Brand Designing",
+      category: "Brand-Designing",
     },
     {
       title: "Interior Designing",
-      category: "Interior Designing",
+      category: "Interior-Designing",
     },
   ];
 
