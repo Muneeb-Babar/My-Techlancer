@@ -1,6 +1,5 @@
 import { useState } from "react";
-import  {data}  from "../../Data/project2.js";
-import { Link } from "react-router-dom";
+import ProjectData from "../../Data/project2Data.js";
 
 const Projecr3 = () => {
   const categoryMenu = [
@@ -74,7 +73,7 @@ const Projecr3 = () => {
           </div>
         </div>
         <div className="row image_load">
-          {data.map((item, index) => (
+          {ProjectData.map((item, index) => (
             <div
               className={`col-lg-6 col-sm-6 project-Grid2-area Grid2-item ${
                 active === "all"

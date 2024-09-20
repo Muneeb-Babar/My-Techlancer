@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import data from '../../Data/project2.js';
+import data from '../../Data/project2Data.js';
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
