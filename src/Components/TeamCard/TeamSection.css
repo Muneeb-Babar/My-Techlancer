@@ -1,0 +1,98 @@
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .team-card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    filter: grayscale(100%); 
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .team-card::before,
+.team-card::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color: #008EB2;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+.team-card::before {
+  left: -100px;
+  top: -100px;
+  z-index: -1;}
+
+.team-card::after {
+  right: -100px;
+  bottom: -100px;
+  z-index: -1;}
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+    filter: grayscale(0);
+  }
+  
+  .team-card-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: filter 0.3s ease;
+    filter: grayscale(100%);
+  }
+  
+  .team-card:hover .team-card-image img {
+    filter: grayscale(0); 
+  }
+  
+  .team-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-card .role {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .team-card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    color: #777;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  
+  .fab {
+    font-size: 1.2rem;
+  }
+  
