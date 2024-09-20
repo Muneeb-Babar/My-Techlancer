@@ -227,6 +227,8 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
         </Grid> */}
 
           <Grid item xs={12}>
+            {tectStacks &&
+            <>
             <Box sx={{ textAlign: "center", mb: 4, mt: "50px" }}>
               <Typography variant="h4" fontWeight="bold">
                 Building Blocks
@@ -254,7 +256,8 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   />
                 </Grid>
               ))}
-            </Grid>
+            </Grid></>
+            }
           </Grid>
         </Grid>
       </Container>
