@@ -410,126 +410,108 @@ export const data = [
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art5,
       title: "2D Art 3",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art6,
       title: "2D Art 4",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art8,
       title: "2D Art 5",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art11,
       title: "2D Art 6",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art12,
       title: "2D Art 7",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art15,
       title: "2D Art 8",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art16,
       title: "2D Art 9",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art18,
       title: "2D Art 10",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art19,
       title: "2D Art 11",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art20,
       title: "2D Art 12",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art21,
       title: "2D Art 13",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art22,
       title: "2D Art 14",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art23,
       title: "2D Art 15",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art24,
       title: "2D Art 16",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art25,
       title: "2D Art 17",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art26,
       title: "2D Art 18",
       desc: "",
       category: "2D Arts"
     },
-  
     {
       img: art27,
       title: "2D Art 19",
       desc: "",
       category: "2D Arts"
     },
-  
   {
     img: art3D1,
     title: "3D Models 1",
@@ -626,7 +608,6 @@ export const data = [
     desc: "",
     category: "Interior Designing",
   },
-
   {
     img: brandImg1,
     title: "Brand Designing 1",

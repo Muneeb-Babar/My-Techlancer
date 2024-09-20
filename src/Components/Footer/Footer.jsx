@@ -1,20 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 import logo from '../../assets/images/CardImages/whiteLogo.png'
 
 
 const Footer = () => {
 
-    const Services = [
-        'Web Development',
-        'Digital Marketing',
-        'Social Media Handling',
-        'Gaming Assets',
-        'Graphic Design',
-        'Search Engine Optimization',
-        '2D/3D Character Modeling'
-    ];
+    const location = useLocation();
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location]);
 
+    const Services = [
+        { title: 'Web Development', linkServives: '/services/web-development' },
+        { title: 'Digital Marketing', linkServives: '/services/digital-marketing' },
+        { title: 'Social Media Handling', linkServives: '/services/social-media-handling' },
+        { title: 'Gaming Assets', linkServives: '/services/gaming-assets' },
+        { title: 'Graphic Design', linkServives: '/services/graphic-design' },
+        { title: 'Search Engine Optimization', linkServives: '/services/seo' },
+        { title: '2D/3D Character Modeling', linkServives: '/services/2d-3d-modeling' }
+    ];
       const UsefulLinks = [
         {title:'About Company', link:'/about'},
         {title:'Meet Our Team', link:'/team'},
@@ -79,12 +85,12 @@ const Footer = () => {
                                 <Link to="/"><img src={logo} width={100} alt="footer-logo" /></Link>
                                 </div>
                                 <p className="footer-widget-text" style={{textAlign:'justify',paddingRight:'1rem',color:'white',marginTop:'-30px'}}>{LogoContent.Content}</p>
-                                <div className="footer-social" style={{marginLeft:'1.7rem'}}>
+                                <div className="footer-social">
                                     <div className="footer-widget-social">
-                                        <a href="#"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        <a href="https://www.facebook.com/share/rgUT8L9Gr9eQPM8y/?mibextid=LQQJ4d" target="new"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
                                         <a href="#"><i className="bi bi-twitter" style={{color:'white',fontSize:'20px'}}></i></a>
-                                        <a href="#"><i className="bi bi-linkedin" style={{color:'white',fontSize:'20px'}}></i></a>
-                                        <a href="#"><i className="bi bi-instagram" style={{color:'white',fontSize:'20px'}}></i></a>                                        
+                                        <a href="https://www.linkedin.com/company/m-y-techlancers/" target="new"><i className="bi bi-linkedin" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        <a href="https://www.instagram.com/m.y.techlancers?igsh=MW5udjVydHF4aWhmNA==" target="new"><i className="bi bi-instagram" style={{color:'white',fontSize:'20px'}}></i></a>                                        
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +114,7 @@ const Footer = () => {
                                 </div>
                                 <ul>
                                 {Services.map((item, i) => ( 
-                                    <li key={i}><Link to="">{item}</Link></li>
+                                    <li key={i}><Link to={item.linkServives}>{item.title}</Link></li>
                                 ))}
                                 </ul>
                             </div>
