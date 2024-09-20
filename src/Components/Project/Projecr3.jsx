@@ -1,5 +1,5 @@
 import { useState } from "react";
-import  {data}  from "../../Data/project2.js";
+import  data  from "../../Data/project2.js";
 import { Link } from "react-router-dom";
 
 const Projecr3 = () => {
@@ -11,6 +11,18 @@ const Projecr3 = () => {
     {
       title: "Software",
       category: "Software",
+    },
+    {
+      title: "Real Estate",
+      category: "Real Estate",
+    },
+    {
+      title: "Technology",
+      category: "Technology",
+    },
+    {
+      title: "Helpdesk",
+      category: "Helpdesk",
     },
     {
       title: "Gaming Assets",
@@ -55,6 +67,7 @@ const Projecr3 = () => {
                       onClick={() => setActive(item.category)}
                       className={active === item.category ? "active" : ""}
                       key={index}
+                      style={{padding:'10px'}}
                     >
                       {item.title}
                     </li>
