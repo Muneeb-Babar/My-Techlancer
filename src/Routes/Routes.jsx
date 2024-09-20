@@ -23,6 +23,12 @@ import ServiceDetails from "../Pages/ServiceDetails";
 import Project from "../Pages/Project";
 import WebDevelopment from "../Pages/webDevelopment";
 import DigitalMarketing from "../Pages/DigitalMarketing";
+import GraphicDesign from "../Pages/graphicDesign";
+import Art from "../Pages/Art";
+import SocialMedia from "../Pages/socialMedia";
+import GamingAssets from "../Pages/gamingAssets";
+import SeoOptimization from "../Pages/seoOptimization";
+
 
 export const router = createBrowserRouter([
     {
@@ -80,6 +86,22 @@ export const router = createBrowserRouter([
           {
             path: "/digitalMarketing",
             element: <DigitalMarketing></DigitalMarketing>,
+          }, 
+          {
+            path: "/graphicDesign",
+            element: <GraphicDesign></GraphicDesign>,
+          }, {
+            path: "/art",
+            element: <Art></Art>,
+          }, {
+            path: "/gamingAssets",
+            element: <GamingAssets></GamingAssets>,
+          }, {
+            path: "/socialMarketing",
+            element: <SocialMedia></SocialMedia>,
+          }, {
+            path: "/seoOptimization",
+            element: <SeoOptimization></SeoOptimization>,
           }, 
         // {
         //   path: "/blog",

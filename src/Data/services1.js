@@ -26,35 +26,35 @@ const data = [
     "desc": "Create visually stunning graphics.",
     "icon": graphics,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/graphicDesign"
   },
   {
     "title": "2D/3D Character",
     "desc": "Design captivating characters in 2D and 3D.",
     "icon": anime,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/art"
   },
   {
     "title": "Gaming Assets",
     "desc": "Develop high-quality assets for games.",
     "icon": gaming,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/gamingAssets"
   },
   {
     "title": "Social Media",
     "desc": "Enhance engagement through social platforms.",
     "icon": socialmedia,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/socialMarketing"
   },
   {
     "title": "SEO Optimization",
     "desc": "Improve website rankings and visibility.",
     "icon": seo,
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "/seoOptimization"
   }
 ]
 
