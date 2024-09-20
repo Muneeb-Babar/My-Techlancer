@@ -11,6 +11,9 @@ import Node from "../assets/images/stacks/web/node-js.png";
 import Docker from "../assets/images/stacks/web/docker.png";
 import Swift from "../assets/images/stacks/web/swift.png";
 import Java from "../assets/images/stacks/web/java.png";
+import Web from "../assets/images/stacks/web/webdevelopment.avif";
+import Front from "../assets/images/stacks/web/frontend.avif";
+import Back from "../assets/images/stacks/web/backend.avif";
 
 const WebDevelopment = () => {
   const techStacks = [
@@ -28,7 +31,7 @@ const WebDevelopment = () => {
   ];
 
   const Comp1 = {
-    img1: "https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?t=st=1726759290~exp=1726762890~hmac=56425d3718a23b59559b403774d9bf9da35203e054df92cc0b5e5826f52644bc&w=900",
+    img1: Web,
     heading1: "Web Development",
     para1: `Web Development is a broad term that encompasses various aspects
                 of creating and maintaining websites and web applications. It
@@ -38,7 +41,7 @@ const WebDevelopment = () => {
   };
 
   const Comp2 = {
-    img2: "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?t=st=1726765902~exp=1726769502~hmac=fd008b5d025e0d812e70a18b6f5cbc95a77a79b713801095b32f7904b40d4ab3&w=900",
+    img2: Front,
     heading2: "Front End Development",
     para2: `Front-end development is a crucial aspect of web development
                 that focuses on the client side of web applications and
@@ -50,7 +53,7 @@ const WebDevelopment = () => {
   };
 
   const Comp3 = {
-    img3: "https://img.freepik.com/premium-photo/data-technology-center-server-racks-dark-room-with-vfx_1271065-3253.jpg?w=740",
+    img3: Back,
     heading3: "Back End Development",
     para3: `Backend development focuses on the server-side of web
                   development. It involves creating and managing the server,
