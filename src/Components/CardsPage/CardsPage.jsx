@@ -227,37 +227,38 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
         </Grid> */}
 
           <Grid item xs={12}>
-            {tectStacks &&
-            <>
-            <Box sx={{ textAlign: "center", mb: 4, mt: "50px" }}>
-              <Typography variant="h4" fontWeight="bold">
-                Building Blocks
-              </Typography>
-            </Box>
-            <Grid
-              container
-              spacing={2}
-              justifyContent="center"
-              alignItems="center"
-            >
-              {tectStacks.map((tech) => (
+            {tectStacks && (
+              <>
+                <Box sx={{ textAlign: "center", mb: 4, mt: "50px" }}>
+                  <Typography variant="h4" fontWeight="bold">
+                    Building Blocks
+                  </Typography>
+                </Box>
                 <Grid
-                  item
-                  key={tech.name}
-                  xs={4}
-                  sm={2}
-                  md={1}
-                  sx={{ textAlign: "center" }}
+                  container
+                  spacing={2}
+                  justifyContent="center"
+                  alignItems="center"
                 >
-                  <img
-                    src={tech.src}
-                    alt={tech.name}
-                    style={{ width: "50px", margin: "10px" }}
-                  />
+                  {tectStacks.map((tech) => (
+                    <Grid
+                      item
+                      key={tech.name}
+                      xs={4}
+                      sm={2}
+                      md={1}
+                      sx={{ textAlign: "center" }}
+                    >
+                      <img
+                        src={tech.src}
+                        alt={tech.name}
+                        style={{ width: "50px", margin: "10px" }}
+                      />
+                    </Grid>
+                  ))}
                 </Grid>
-              ))}
-            </Grid></>
-            }
+              </>
+            )}
           </Grid>
         </Grid>
       </Container>

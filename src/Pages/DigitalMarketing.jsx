@@ -1,10 +1,10 @@
 import React from "react";
 import CardPage from "../Components/CardsPage/CardsPage";
-import Seo from "../assets/images/stacks/web/seo.png";
-import Analysis from "../assets/images/stacks/web/analysis.png";
-import Email from "../assets/images/stacks/web/email.png";
-import Hubspot from "../assets/images/stacks/web/hubspot.png";
-import Affiliate from "../assets/images/stacks/web/affiliate-marketing.png";
+import Seo from "../assets/images/stacks/digital-marketing/seo.png";
+import Analysis from "../assets/images/stacks/digital-marketing/analysis.png";
+import Email from "../assets/images/stacks/digital-marketing/email.png";
+import Hubspot from "../assets/images/stacks/digital-marketing/hubspot.png";
+import Affiliate from "../assets/images/stacks/digital-marketing/affiliate-marketing.png";
 
 const AppDevelopment = () => {
   const techStacks = [
