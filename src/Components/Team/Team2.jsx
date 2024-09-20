@@ -18,7 +18,7 @@ const Team2 = () => {
             <div className="row">
             {data.map((item, i) => (
                 <div key={i} className="col-xl-3 col-lg-4 col-md-6">
-                    <div className="single-team-box">
+                    <div className="single-team-box" >
                         <div className="single-team-thumb">
                             <div className="team-content">
                                 <div className="team-inner-title">
@@ -33,7 +33,7 @@ const Team2 = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <img src={item.img} alt="thumb" />
+                            <img src={item.img} alt="thumb"/>
                         </div>
                     </div>
                 </div>
