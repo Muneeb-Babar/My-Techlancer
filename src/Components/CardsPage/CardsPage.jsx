@@ -1,67 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Grid,
-  Typography,
-  Box,
-  Card,
-  CardContent,
-  CardMedia,
-} from "@mui/material";
-
-// import Html from "../../assets/images/stacks/web/html.png";
-// import CSS from "../../assets/images/stacks/web/css.png";
-// import AWS from "../../assets/images/stacks/web/aws.png";
-// import Mongo from "../../assets/images/stacks/web/mongo.png";
-// import JS from "../../assets/images/stacks/web/js.png";
-// import ReactIcon from "../../assets/images/stacks/web/react.png";
-// import Vue from "../../assets/images/stacks/web/vue.png";
-// import Node from "../../assets/images/stacks/web/node-js.png";
-// import Docker from "../../assets/images/stacks/web/docker.png";
+import { Container, Grid, Typography, Box } from "@mui/material";
 import BreadCumb from "../../Components/Common/BreadCumb";
-
-// const techStacks = [
-//   {
-//     title: "HTML",
-//     description: "The backbone of web pages, used to structure content.",
-//     image:
-//       "https://img.freepik.com/premium-photo/persons-hands-typing-keyboard-with-holographic-interface-projecting-html5-coding-elements_1272475-1001.jpg?w=740",
-//   },
-//   {
-//     title: "CSS",
-//     description:
-//       "Used to style and layout web pages, including design, colors, and fonts.",
-//     image:
-//       "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1726762300~exp=1726765900~hmac=d7556c1be0e246c464a8325a39acb0ff4ad14ef7e44a1107e514a5713f142458&w=900",
-//   },
-//   {
-//     title: "JavaScript",
-//     description: "Adds interactivity and dynamic features to web pages.",
-//     image:
-//       "https://img.freepik.com/premium-photo/modern-laptop-displaying-computer-code-screen-neon-light_207634-16455.jpg?w=1060",
-//   },
-//   {
-//     title: "React",
-//     description:
-//       "A JavaScript library for building user interfaces, particularly single-page applications.",
-//     image:
-//       "https://img.freepik.com/premium-photo/react-js-programming-language-with-laptop-code-script-screen_1020200-5402.jpg?w=1060",
-//   },
-//   {
-//     title: "Angular",
-//     description:
-//       "A TypeScript-based open-source framework for building web applications.",
-//     image:
-//       "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010119.jpg?t=st=1726762063~exp=1726765663~hmac=457409bfa6da5d27e80b6f009fbfdda213e094862c0a7000fe7b8ad15c469cc2&w=900",
-//   },
-//   {
-//     title: "Vue.js",
-//     description:
-//       "A progressive JavaScript framework used for building user interfaces.",
-//     image:
-//       "https://img.freepik.com/premium-photo/blue-led-light-with-blue-led-light-it_14117-143676.jpg?w=1060",
-//   },
-// ];
 
 const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
   const { img1, heading1, para1 } = Comp1;
@@ -84,11 +23,13 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 width: "100%",
               }}
             >
-              <img
-                src={img1}
-                alt="Image 1"
-                style={{ maxWidth: "40%", height: "auto", borderRadius: "8px" }}
-              />
+
+                <img
+                  src={img1}
+                  alt="Image 1"
+                  // style={{ width: "40%", height: "auto", borderRadius: "8px" }} 
+                  className="cardImg"
+                />
               <div
                 style={{
                   display: "flex",
@@ -98,11 +39,22 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h3" fontWeight="bold" >
+                <Typography
+                  variant="h3"
+                  fontWeight="bold"
+                  sx={{
+                    fontSize: {
+                      xs: "1.5rem",
+                      sm: "2rem",
+                      md: "2.5rem",
+                    },
+                    paddingTop: "20px",
+                  }}
+                >
                   {heading1}
                 </Typography>
                 <Typography
-                style={{textAlign:'justify'}}
+                  style={{ textAlign: "justify" }}
                   variant="body1"
                   sx={{
                     mt: 2,
@@ -130,8 +82,8 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
               <img
                 src={img2}
                 alt="Image 2"
-                style={{ maxWidth: "40%", height: "auto", borderRadius: "8px" }}
-              />
+                className="cardImg"
+                />
               <div
                 style={{
                   display: "flex",
@@ -141,11 +93,18 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h3" fontWeight="bold">
+                <Typography variant="h3" fontWeight="bold"  sx={{
+                    fontSize: {
+                      xs: "1.5rem",
+                      sm: "2rem",
+                      md: "2.5rem",
+                    },
+                    paddingTop: "20px",
+                  }}>
                   {heading2}
                 </Typography>
                 <Typography
-                style={{textAlign:'justify'}}
+                  style={{ textAlign: "justify" }}
                   variant="body1"
                   sx={{
                     mt: 2,
@@ -173,8 +132,8 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
               <img
                 src={img3}
                 alt="Image 1"
-                style={{ maxWidth: "40%", height: "auto", borderRadius: "8px" }}
-              />
+                className="cardImg"
+                />
               <div
                 style={{
                   display: "flex",
@@ -184,11 +143,18 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   width: { xs: "100%", sm: "40%" },
                 }}
               >
-                <Typography variant="h3" fontWeight="bold">
+                <Typography variant="h3" fontWeight="bold"  sx={{
+                    fontSize: {
+                      xs: "1.5rem",
+                      sm: "2rem",
+                      md: "2.5rem",
+                    },
+                    paddingTop: "20px",
+                  }}>
                   {heading3}
                 </Typography>
                 <Typography
-                style={{textAlign:'justify'}}
+                  style={{ textAlign: "justify" }}
                   variant="body1"
                   sx={{
                     mt: 2,
