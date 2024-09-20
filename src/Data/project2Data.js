@@ -88,7 +88,7 @@ import img78 from "../assets/images/projects/interiorImages/int7.jpg";
 import img79 from "../assets/images/projects/interiorImages/int8.jpg";
 
 // Brand Design
-import img80 from "../assets/images/projects/brandimages/brand1.jpg";
+// import img80 from "../assets/images/projects/brandimages/brand1.jpg";
 import img81 from "../assets/images/projects/brandimages/brand2.jpg";
 import img82 from "../assets/images/projects/brandimages/brand3.jpg";
 import img83 from "../assets/images/projects/brandimages/brand4.jpg";
@@ -203,7 +203,7 @@ const ProjectData = [
 // ];
 
 // const brandDesignImages = [
-  { img: img80, title: "Bold Identity", category: "BrandDesigning" },
+  // { img: img80, title: "Bold Identity", category: "BrandDesigning" },
 { img: img81, title: "Sleek Branding", category: "BrandDesigning" },
 { img: img82, title: "Vibrant Visuals", category: "BrandDesigning" },
 { img: img83, title: "Timeless Classic", category: "BrandDesigning" },
