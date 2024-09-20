@@ -1,70 +1,80 @@
 import React from "react";
 import CardPage from "../Components/CardsPage/CardsPage";
-import Html from "../assets/images/stacks/web/html.png";
-import CSS from "../assets/images/stacks/web/css.png";
-import AWS from "../assets/images/stacks/web/aws.png";
-import Mongo from "../assets/images/stacks/web/mongo.png";
-import JS from "../assets/images/stacks/web/js.png";
-import ReactIcon from "../assets/images/stacks/web/react.png";
-import Vue from "../assets/images/stacks/web/vue.png";
-import Node from "../assets/images/stacks/web/node-js.png";
-import Docker from "../assets/images/stacks/web/docker.png";
-import Swift from "../assets/images/stacks/web/swift.png";
-import Java from "../assets/images/stacks/web/java.png";
+import Acrobat from "../assets/images/stacks/graphic/acrobat.png";
+import Adobe from "../assets/images/stacks/graphic/adobe.png";
+import After from "../assets/images/stacks/graphic/aftereffects.png";
+import Audtion from "../assets/images/stacks/graphic/audition.png";
+import Framer from "../assets/images/stacks/graphic/framer.png";
+import Illustrator from "../assets/images/stacks/graphic/illustrator.png";
+import Indesign from "../assets/images/stacks/graphic/indesign.png";
+import Media from "../assets/images/stacks/graphic/media.png";
+import Photoshop from "../assets/images/stacks/graphic/photoshop.png";
+import Premier from "../assets/images/stacks/graphic/premier.png";
+import Graphic from "../assets/images/CardImages/graphic.jpg";
+import Branding from "../assets/images/CardImages/branding.jpg";
+import Motion from "../assets/images/CardImages/motion.jpg";
 
 const GraphicDesign = () => {
   const techStacks = [
-    { name: "HTML", src: Html },
-    { name: "CSS", src: CSS },
-    { name: "JavaScript", src: JS },
-    { name: "React", src: ReactIcon },
-    { name: "Node.js", src: Node },
-    { name: "Vue.js", src: Vue },
-    { name: "MongoDB", src: Mongo },
-    { name: "Docker", src: Docker },
-    { name: "AWS", src: AWS },
-    { name: "Swift", src: Swift },
-    { name: "Java", src: Java },
+    { name: "Acrobat", src: Acrobat },
+    { name: "Adobe", src: Adobe },
+    { name: "After", src: After },
+    { name: "Audition", src: Audtion },
+    { name: "Framer", src: Framer },
+    { name: "Illustrator", src: Illustrator },
+    { name: "Indesign", src: Indesign },
+    { name: "Media", src: Media },
+    { name: "Photoshop", src: Photoshop },
+    { name: "Premier", src: Premier },
   ];
 
   const Comp1 = {
-    img1: "https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?t=st=1726759290~exp=1726762890~hmac=56425d3718a23b59559b403774d9bf9da35203e054df92cc0b5e5826f52644bc&w=900",
-    heading1: "Web Development",
-    para1: `Web Development is a broad term that encompasses various aspects
-                of creating and maintaining websites and web applications. It
-                involves multiple disciplines and skills, including front-end
-                and back-end development, as well as design and user experience
-                (UX).`,
-  };
+    img1: Graphic,
+    heading1: "Graphic Design",
+    para1: `Graphic design is the art and practice of creating visual content to communicate messages. 
+            Designers use typography, imagery, color, and form to convey ideas effectively, whether in 
+            print or digital media. Through the careful selection of fonts, images, layouts, and color schemes, 
+            graphic designers craft visuals that capture attention, evoke emotions, and influence perceptions.
+            This discipline spans multiple areas, including logo design, advertising, packaging, brochures, 
+            websites, and digital interfaces. In the modern world, graphic design plays a crucial role in 
+            branding, marketing, and digital user experiences, contributing to the success of businesses by 
+            making information more engaging and accessible. Whether for a small business or a large corporation, 
+            good graphic design ensures that communication is visually striking and aligned with the brand’s values.
+            With the rise of digital platforms, the scope of graphic design has expanded, becoming a key element in 
+            building digital presence, online marketing, and user-centered designs across various industries.` 
+};
 
-  const Comp2 = {
-    img2: "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?t=st=1726765902~exp=1726769502~hmac=fd008b5d025e0d812e70a18b6f5cbc95a77a79b713801095b32f7904b40d4ab3&w=900",
-    heading2: "Front End Development",
-    para2: `Front-end development is a crucial aspect of web development
-                that focuses on the client side of web applications and
-                websites. It involves creating and managing the visual and
-                interactive elements that users engage with directly. Front-end
-                developers use a combination of technologies, design principles,
-                and best practices to build user interfaces that are both
-                functional and aesthetically pleasing.`,
-  };
+const Comp2 = {
+    img2: Branding,
+    heading2: "Branding & Identity Design",
+    para2: `Branding and identity design is a specialized field within graphic design that focuses on creating
+            cohesive and impactful visual elements that represent the essence of a brand. This process typically involves 
+            the creation of logos, color schemes, typography, and visual guidelines that collectively define a brand’s 
+            image. Branding is not just about visual appeal; it's about shaping how customers perceive a brand, 
+            conveying its values, mission, and personality. A consistent and memorable brand identity ensures that a 
+            business stands out in competitive markets and fosters customer loyalty over time. The creation of a 
+            comprehensive branding strategy often involves deep research into the brand’s target audience, market 
+            positioning, and competitive landscape.` 
+};
 
-  const Comp3 = {
-    img3: "https://img.freepik.com/premium-photo/data-technology-center-server-racks-dark-room-with-vfx_1271065-3253.jpg?w=740",
-    heading3: "Back End Development",
-    para3: `Backend development focuses on the server-side of web
-                  development. It involves creating and managing the server,
-                  database, and application logic that powers the front-end
-                  interface. Backend developers work with server-side languages
-                  and frameworks to build APIs, manage data storage, and ensure
-                  the seamless operation of web applications. They handle tasks
-                  such as user authentication, data processing, and server-side
-                  scripting to ensure that everything on the client side
-                  functions smoothly.`,
-  };
+const Comp3 = {
+    img3: Motion,
+    heading3: "Motion Graphics",
+    para3: `Motion graphics design is the art of blending animation with graphic design to create dynamic, 
+            moving visuals that help communicate messages in an engaging and interactive way. Motion graphics 
+            combine visual elements like shapes, text, icons, and illustrations with animation techniques to add 
+            motion, making static designs come alive. This design approach is widely used in video production, 
+            digital marketing, film titles, explainer videos, and user interface animations to enhance the overall 
+            user experience. Motion graphics help break down complex ideas, add visual interest, and guide viewers’ 
+            attention toward key information. Designers use tools like Adobe After Effects, Cinema 4D, and other 
+            animation software to create fluid transitions, eye-catching effects, and storytelling moments that 
+            captivate audiences.` 
+};
+
+
   return (
     <CardPage
-      // tectStacks={techStacks}
+      tectStacks={techStacks}
       Comp1={Comp1}
       Comp2={Comp2}
       Comp3={Comp3}
