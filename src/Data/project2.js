@@ -100,7 +100,7 @@ import img88 from "../assets/images/projects/brandimages/brand9.jpg";
 import img89 from "../assets/images/projects/brandimages/brand10.jpg";
 
 // Define image arrays
-const marketingImages = [
+const data = [
   { img: img1, title: "Conserva Wrap", desc: "Packaging Solution", category: "Marketing" },
   { img: img2, title: "Consulting IT Marketing", desc: "Consulting Services", category: "Technology" },
   { img: img3, title: "Custom Home Remodeling", desc: "Home Renovation", category: "RealEstate" },
@@ -121,11 +121,11 @@ const marketingImages = [
   { img: img18, title: "Tetmann Energies Nigeria Ltd", desc: "Energy Solutions", category: "Technology" },
   { img: img19, title: "Twins EP Security Transportation", desc: "Security and Transportation", category: "RealEstate" },
   { img: img20, title: "Waddell Wanderlust", desc: "Travel Services", category: "Marketing" },
-];
+// ];
 
 
 
-const gamingImages = [
+// const gamingImages = [
   { img: img21, title: "Game 1", category: "GamingAssets" },
   { img: img22, title: "Game 2", category: "GamingAssets" },
   { img: img23, title: "Game 3", category: "GamingAssets" },
@@ -151,9 +151,9 @@ const gamingImages = [
   { img: img43, title: "Game 23", category: "GamingAssets" },
   { img: img44, title: "Game 24", category: "GamingAssets" },
   { img: img45, title: "Game 25", category: "GamingAssets" },
-];
+// ];
 
-const art2DImages = [
+// const art2DImages = [
   { img: img45, title: "2D Art 1", category: "2DArts" },
   { img: img46, title: "2D Art 2", category: "2DArts" },
   { img: img47, title: "2D Art 3", category: "2DArts" },
@@ -173,10 +173,10 @@ const art2DImages = [
   { img: img61, title: "2D Art 17", category: "2DArts" },
   { img: img62, title: "2D Art 18", category: "2DArts" },
   { img: img63, title: "2D Art 19", category: "2DArts" },
-];
+// ];
 
 
-const art3DImages = [
+// const art3DImages = [
   { img: img64, title: "3D Art 1", category: "3DModels" },
   { img: img65, title: "3D Art 2", category: "3DModels" },
   { img: img66, title: "3D Art 3", category: "3DModels" },
@@ -185,9 +185,9 @@ const art3DImages = [
   { img: img69, title: "3D Art 6", category: "3DModels" },
   { img: img70, title: "3D Art 7", category: "3DModels" },
   { img: img71, title: "3D Art 8", category: "3DModels" },
-];
+// ];
 
-const interiorDesignImages = [
+// const interiorDesignImages = [
   { img: img72, title: "Interior Design 1", category: "InteriorDesigning" },
   { img: img73, title: "Interior Design 2", category: "InteriorDesigning" },
   { img: img74, title: "Interior Design 3", category: "InteriorDesigning" },
@@ -196,9 +196,9 @@ const interiorDesignImages = [
   { img: img77, title: "Interior Design 6", category: "InteriorDesigning" },
   { img: img78, title: "Interior Design 7", category: "InteriorDesigning" },
   { img: img79, title: "Interior Design 8", category: "InteriorDesigning" },
-];
+// ];
 
-const brandDesignImages = [
+// const brandDesignImages = [
   { img: img80, title: "Brand Design 1", category: "BrandDesigning" },
   { img: img81, title: "Brand Design 2", category: "BrandDesigning" },
   { img: img82, title: "Brand Design 3", category: "BrandDesigning" },
@@ -212,12 +212,14 @@ const brandDesignImages = [
 ];
 
 // Combine all images into a single data array
-export const data = [
-  ...marketingImages,
-  ...gamingImages,
-  ...art2DImages,
-  ...art3DImages,
-  ...interiorDesignImages,
-  ...brandDesignImages,
-];
+// export const data = [
+//   ...marketingImages,
+//   ...gamingImages,
+//   ...art2DImages,
+//   ...art3DImages,
+//   ...interiorDesignImages,
+//   ...brandDesignImages,
+// ];
 
+
+export default data;
