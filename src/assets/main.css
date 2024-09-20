@@ -1275,8 +1275,8 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
 }
 
 .feature-box {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: Grid2;
+  Grid2-template-columns: repeat(5, 1fr);
   gap: 30px;
 }
 
@@ -3796,9 +3796,9 @@ ul.list-style-one li a {
 }
 
 .recent-gallery ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  display: Grid2;
+  Grid2-template-columns: repeat(3, 1fr);
+  Grid2-gap: 10px;
 }
 
 .widget-gallery-thumb img {
@@ -7301,30 +7301,30 @@ a.project-details-text {
 }
 
 /*---=====================================================
-<!-- Start solutek blog Area css style-grid-->
+<!-- Start solutek blog Area css style-Grid2-->
 =========================================================---*/
-.blog-area.style-grid .single-blog-box {
+.blog-area.style-Grid2 .single-blog-box {
   background: #fff;
   border-radius: 15px;
   padding: 25px 26px 36px;
   margin-bottom: 30px;
 }
 
-.blog-area.style-grid .single-blog-thumb {
+.blog-area.style-Grid2 .single-blog-thumb {
   transition: 0.5s;
   overflow: hidden;
 }
 
-.blog-area.style-grid  .single-blog-thumb img {
+.blog-area.style-Grid2  .single-blog-thumb img {
   width: 100%;
   transition: 0.5s;
 }
 
-.blog-area.style-grid  .blog-box-content {
+.blog-area.style-Grid2  .blog-box-content {
   padding: 25px 20px 5px 10px;
 }
 
-.blog-area.style-grid .meta-blog a span {
+.blog-area.style-Grid2 .meta-blog a span {
   display: inline-block;
   font-size: 15px;
   color: #7a7a7a;
@@ -7332,28 +7332,28 @@ a.project-details-text {
   font-family: "Fira Sans";
 }
 
-.blog-area.style-grid .meta-blog span i {
+.blog-area.style-Grid2 .meta-blog span i {
   display: inline-block;
   color: #008eb2;
   margin-right: 15px;
 }
 
-.blog-area.style-grid .meta-blog p {
+.blog-area.style-Grid2 .meta-blog p {
   display: inline-block;
   margin-left: 15px;
   margin-bottom: 0;
 }
 
-.blog-area.style-grid .meta-blog p span {
+.blog-area.style-Grid2 .meta-blog p span {
   display: inline-block;
   margin-right: 15px;
 }
 
-.blog-area.style-grid .blog-box-content h3 {
+.blog-area.style-Grid2 .blog-box-content h3 {
   margin: 0;
 }
 
-.blog-area.style-grid .blog-box-content h3 a {
+.blog-area.style-Grid2 .blog-box-content h3 a {
   display: inline-block;
   font-size: 22px;
   line-height: 34px;
@@ -7365,7 +7365,7 @@ a.project-details-text {
   transition: 0.5s;
 }
 
-.blog-area.style-grid .blog-button a {
+.blog-area.style-Grid2 .blog-button a {
   display: inline-block;
   font-size: 17px;
   text-transform: uppercase;
@@ -7379,11 +7379,11 @@ a.project-details-text {
   transition: 0.5s;
 }
 
-.blog-area.style-grid .blog-button a i {
+.blog-area.style-Grid2 .blog-button a i {
   margin-left: 10px;
 }
 
-.blog-area.style-grid .blog-button a::before {
+.blog-area.style-Grid2 .blog-button a::before {
   position: absolute;
   content: "";
   height: 100%;
@@ -7397,20 +7397,20 @@ a.project-details-text {
   z-index: -1;
 }
 
-/* all hover grid */
-.blog-area.style-grid .blog-box-content h3 a:hover{
+/* all hover Grid2 */
+.blog-area.style-Grid2 .blog-box-content h3 a:hover{
   color:#ff3b00;
 }
 
-.blog-area.style-grid .blog-button:hover a{
+.blog-area.style-Grid2 .blog-button:hover a{
   color:#fff;
 }
 
-.blog-area.style-grid .blog-button a:hover::before{
+.blog-area.style-Grid2 .blog-button a:hover::before{
   transform: scale(1);
 }
 
-.blog-area.style-grid .single-blog-box:hover .single-blog-thumb img {
+.blog-area.style-Grid2 .single-blog-box:hover .single-blog-thumb img {
   transform: scale(1.1);
 }
 
@@ -8906,7 +8906,7 @@ z-index: 999;
 .test_slider_four img{
   max-width: inherit;
 }
-.project-grid-area .case-study-content1{
+.project-Grid2-area .case-study-content1{
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -476,7 +476,7 @@ h3.service-title {
 }
 
 .feature-box {
-    grid-template-columns: repeat(4, 1fr);
+    Grid2-template-columns: repeat(4, 1fr);
 }
 
 .feature-sinble-single-box {
@@ -838,7 +838,7 @@ h4.blog-details-title {
 }
 
 .feature-box {
-    grid-template-columns: repeat(3, 1fr);
+    Grid2-template-columns: repeat(3, 1fr);
 }
 
 .feature-sinble-single-box {
@@ -1456,25 +1456,25 @@ h3.blog-title-two a {
 }
 
 
-/* blog grid */
+/* blog Grid2 */
 
-.blog-area.style-grid .single-blog-box {
+.blog-area.style-Grid2 .single-blog-box {
     padding: 25px 15px 36px;
 }
 
-.blog-area.style-grid .meta-blog span i {
+.blog-area.style-Grid2 .meta-blog span i {
     margin-right: 5px;
 }
 
-.blog-area.style-grid .meta-blog p {
+.blog-area.style-Grid2 .meta-blog p {
     margin-left: 8px;
 }
 
-.blog-area.style-grid .meta-blog p span {
+.blog-area.style-Grid2 .meta-blog p span {
     margin-right: 5px;
 }
 
-.blog-area.style-grid .blog-box-content h3 a {
+.blog-area.style-Grid2 .blog-box-content h3 a {
     font-size: 18px;
 }
 
@@ -1553,8 +1553,8 @@ ul.nav_scroll li a i {
 }
 
 .feature-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: Grid2;
+    Grid2-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -2072,7 +2072,7 @@ h3.blog-title-two a {
     font-size: 20px;
 }
 
-/* blog grid */
+/* blog Grid2 */
 .recent-widget-content a {
     width: 70%;
 }
@@ -2135,7 +2135,7 @@ ul.nav_scroll li a i {
 }
 
 .feature-box {
-    grid-template-columns: repeat(2, 1fr);
+    Grid2-template-columns: repeat(2, 1fr);
 }
 
 .feature-sinble-single-box {
@@ -2671,7 +2671,7 @@ p.project-details-desc {
     top: 55%;
 }
 
-.blog-area.style-grid .blog-box-content h3 a {
+.blog-area.style-Grid2 .blog-box-content h3 a {
     font-size: 20px;
 }
 
@@ -2829,7 +2829,7 @@ ul.nav_scroll li a i {
 }
 
 .feature-box {
-    grid-template-columns: repeat(2, 1fr);
+    Grid2-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -3493,7 +3493,7 @@ h4.services-details-title {
     right: 16px;
 }
 
-.blog-area.style-grid .blog-box-content h3 a {
+.blog-area.style-Grid2 .blog-box-content h3 a {
     font-size: 17px;
 }
 
@@ -3574,7 +3574,7 @@ h3.blog-details-title.two {
 }
 
 @media only screen and (min-width: 570px) and (max-width:1100px) {
-    .project-grid-area .case-study-content1 {
+    .project-Grid2-area .case-study-content1 {
         left: 0px;
         width: 100%;
     }
@@ -3649,8 +3649,8 @@ h3.blog-details-title.two {
 }
 
 .feature-box {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: Grid2;
+    Grid2-template-columns: repeat(1, 1fr);
     gap: 0;
 }
 
@@ -4394,17 +4394,17 @@ h4.services-details-title {
     padding: 0px 10px 0px 10px;
 }
 
-/* blog grid */
-.blog-area.style-grid .single-blog-box {
+/* blog Grid2 */
+.blog-area.style-Grid2 .single-blog-box {
     padding: 25px 15px 36px;
 }
 
-.blog-area.style-grid .meta-blog p {
+.blog-area.style-Grid2 .meta-blog p {
     margin-left: 0;
     margin-bottom: 0;
 }
 
-.blog-area.style-grid .blog-box-content h3 a {
+.blog-area.style-Grid2 .blog-box-content h3 a {
     font-size: 18px;
 }
 
