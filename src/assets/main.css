@@ -2198,7 +2198,7 @@ h1.section-main-title2 {
   height: 60px;
   border-radius: 15px;
   padding: 0 23px 0;
-  margin-bottom: 21px;
+  margin-top: 21px;
   width: 100%;
   transition: 0.5s;
   font-size: 16px;
@@ -2222,7 +2222,7 @@ h1.section-main-title2 {
   width: 100%;
   padding: 17px 23px 0;
   height: 150px;
-  margin-bottom: 22px;
+  margin-top: 22px;
   transition: 0.5s;
   border-radius: 25px;
   font-size: 16px;
@@ -2249,6 +2249,7 @@ h1.section-main-title2 {
   color: #ffffff;
   font-weight: 500;
   font-family: "Fira Sans";
+  margin-top: 20px;
 }
 
 .quote_button button i {
