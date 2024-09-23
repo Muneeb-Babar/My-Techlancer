@@ -88,7 +88,7 @@ import img78 from "../assets/images/projects/interiorImages/int7.jpg";
 import img79 from "../assets/images/projects/interiorImages/int8.jpg";
 
 // Brand Design
-import img80 from "../assets/images/projects/brandimages/brand1.jpg";
+import img80 from "../assets/images/projects/brandImages/brand1.jpg";
 import img81 from "../assets/images/projects/brandimages/brand2.jpg";
 import img82 from "../assets/images/projects/brandimages/brand3.jpg";
 import img83 from "../assets/images/projects/brandimages/brand4.jpg";
