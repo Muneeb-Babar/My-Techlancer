@@ -9,14 +9,14 @@ import serviceDetail from "../../assets/images/service-details.png";
 import contactImag from "../../assets/images/breadcumb-bg.png";
 
 const ServiceDetail = () => {
-  const Services = [
-    "Web Development",
-    "Digital Marketing",
-    "Graphic Design",
-    "2D/3D Character",
-    "Gaming Assets",
-    "Social Media Handling",
-    "SEO Optimization",
+  const Services =[
+    {"title": "web development", "linkBtn": "/webdevelopment"},
+    {"title": "digital marketing", "linkBtn": "/digitalmarketing"},
+    {"title": "graphic design", "linkBtn": "/graphicdesign"},
+    {"title": "2d/3d character", "linkBtn": "/art"},
+    {"title": "gaming assets", "linkBtn": "/gamingassets"},
+    {"title": "social media", "linkBtn": "/socialmarketing"},
+    {"title": "seo optimization", "linkBtn": "/seooptimization"}
   ];
 
   const accordionContentRef = useRef(null);
@@ -180,13 +180,13 @@ const ServiceDetail = () => {
                     <ul>
                       {Services.map((item, i) => (
                         <li key={i}>
-                          <Link to="/service/service-details">
+                          <Link to={item.linkBtn}>
                             <FaFolderOpen
                               size={35}
                               color="#008eb2"
                               style={{ paddingRight: "10px" }}
                             />
-                            {item}
+                            {item.title}
                             <i className="bi bi-arrow-right"></i>
                           </Link>
                         </li>
