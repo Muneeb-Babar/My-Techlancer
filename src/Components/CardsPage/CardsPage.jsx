@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Grid, Typography, Box } from "@mui/material";
 import BreadCumb from "../../Components/Common/BreadCumb";
 
+
 const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
   const { img1, heading1, para1 } = Comp1;
   const { img2, heading2, para2 } = Comp2;
   const { img3, heading3, para3 } = Comp3;
+  
 
   return (
     <>

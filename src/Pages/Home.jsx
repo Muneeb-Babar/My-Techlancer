@@ -13,6 +13,7 @@ import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
 import aboutImg from '../assets/images/about.jpg'
+import ScrollToTopButton from "../Components/scrollBtn/ScrollUpBtn";
 
 const Home = () => {
     return (
@@ -49,6 +50,7 @@ const Home = () => {
             {/* <Faq></Faq> */}
             <Testimonial2></Testimonial2>
             <Contact1></Contact1>
+            <ScrollToTopButton/>
             {/* <Blog1></Blog1> */}
         </div>
     );

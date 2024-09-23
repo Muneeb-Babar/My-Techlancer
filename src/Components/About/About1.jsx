@@ -1,8 +1,22 @@
 import parse from 'html-react-parser';
 import { Link } from 'react-router-dom';
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+
+
 const About1 = ({MainImg,ImgTitle,SubTitle,Title,Content,listTitle,BottomText,BtnUrl,BtnText}) => {
+
+useEffect(()=>{
+    AOS.init({
+        duration: 600,
+        once: false,
+        
+    })
+},[])
+
     return (
-        <div className="about-area container" style={{marginTop:'4rem'}}>
+        <div className="about-area container" style={{marginTop:'4rem'}} data-aos="fade-left">
                 <div className="container">
                     <div className="row align-items-center container">
                         <div className="col-lg-6 col-lg-6 pl-50">
