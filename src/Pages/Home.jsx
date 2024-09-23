@@ -1,7 +1,7 @@
 import About1 from "../Components/About/About1";
 import Hero1 from "../Components/Banner/Hero1";
 // import Blog1 from "../Components/Blog/Blog1";
-import Brand from "../Components/Brand/Brand";
+// import Brand from "../Components/Brand/Brand";
 import Contact1 from "../Components/Contact/Contact1";
 // import Faq from "../Components/Faq/Faq";
 // import Features from "../Components/Features/Features";
@@ -45,7 +45,7 @@ const Home = () => {
                 bgImage="/assets/images/project-bg.png"
                 ClassAdd="project-area"
             ></Project1>
-            <Brand></Brand>
+            {/* <Brand></Brand> */}
             {/* <Pricing></Pricing> */}
             {/* <Faq></Faq> */}
             <Testimonial2></Testimonial2>

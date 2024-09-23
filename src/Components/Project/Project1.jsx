@@ -52,7 +52,7 @@ const Project1 = ({ bgImage, ClassAdd }) => {
   };
 
   return (
-    <div className={ClassAdd} data-background={bgImage}>
+    <div className={ClassAdd} data-background={bgImage} style={{marginBottom:'1rem'}}>
       <div className="container-fluid">
         <div className="row project align-items-center">
           <div className="col-lg-6">

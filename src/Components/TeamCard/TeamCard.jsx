@@ -14,13 +14,13 @@ import 'aos/dist/aos.css';
 const teamMembers = [
     {
         image: team2,  
-        name: "Eeshan Aslam",
+        name: "Syed Mehboob",
         role: "Supervisor",
         description: "Oversees daily operations and ensures team productivity, focusing on meeting organizational goals."
       },
       {
         image: team3,  
-        name: "Syed Mehboob",
+        name: "Eeshan Aslam",
         role: "Sales Manager",
         description: "Leads the sales team, develops strategies, and drives revenue growth for the company."
       },  
