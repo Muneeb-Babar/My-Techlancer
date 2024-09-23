@@ -31,10 +31,10 @@ const Projecr3 = () => {
       title: "3D Models",
       category: "3DModels",
     },
-    // {
-    //   title: "Brand Designing",
-    //   category: "BrandDesigning",
-    // },
+    {
+      title: "Brand Designing",
+      category: "BrandDesigning",
+    },
     {
       title: "Interior Designing",
       category: "InteriorDesigning",
