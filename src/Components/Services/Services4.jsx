@@ -1,8 +1,21 @@
 import SectionTitle from "../Common/SectionTitle";
 import data from '../../Data/services4';
 import { Link } from "react-router-dom";
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 const Services4 = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,        
+            once: false,         
+            easing: 'ease-in-out', 
+            offset: 120,          
+            anchorPlacement: 'top-bottom' 
+        });
+        AOS.refresh(); 
+    }, []);
     return (
         <div className="sservice-area style-two">
             <div className="container">
@@ -16,7 +29,7 @@ const Services4 = () => {
                         </div>
                     </div>
                     {data.map((item, i) => (
-                    <div key={i} className="col-xl-3 col-lg-4 col-md-6">
+                    <div key={i} className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-left">
                         <div className="single-service-box">
                             <div className="service-thumb">
                                 <img src={item.image} alt="thumb" />
@@ -25,10 +38,10 @@ const Services4 = () => {
                                 <img src={item.icon} alt="icon" />
                             </div>
                             <div className="service-content">
-                                <h3 className="service-title"><Link to="/service/service-details">{item.title}</Link></h3>
+                                <h3 className="service-title"><Link to={item.btnLink}>{item.title}</Link></h3>
                                 <p className="service-text">{item.desc}</p>
                                 <div className="service-btn">
-                                <Link to="/service/service-details"><i className="bi bi-plus"></i> READ MORE</Link>
+                                <Link to={item.btnLink}><i className="bi bi-plus"></i> READ MORE</Link>
                                 </div>
                                 <div className="services-shape bounce-animate-3">
                                     <img src="/assets/images/inner/serice-shape.png" alt="shape" />

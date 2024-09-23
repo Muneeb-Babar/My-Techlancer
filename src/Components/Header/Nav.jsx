@@ -65,11 +65,11 @@ export default function Nav({ setMobileToggle }) {
               Pricing
               </Link>
             </li>  */}
-            <li>
+            {/* <li>
               <Link to="/faq" onClick={() => setMobileToggle(false)}>
               Faq
               </Link>
-            </li> 
+            </li>  */}
             <li>
               <Link to="/contact" onClick={() => setMobileToggle(false)}>
               Contact

@@ -1,19 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Grid, Typography, Box } from "@mui/material";
 import BreadCumb from "../../Components/Common/BreadCumb";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
   const { img1, heading1, para1 } = Comp1;
   const { img2, heading2, para2 } = Comp2;
   const { img3, heading3, para3 } = Comp3;
-  
+
+  // Initialize AOS in useEffect
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Animation duration
+      easing: 'ease-in-out', // Animation easing
+      once: false, // Allows animation on both scroll down and up
+      offset: 100, // Triggers animation earlier or later
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <>
       <BreadCumb Title={pageName}></BreadCumb>
       <Container style={{ marginTop: "100px" }}>
         <Grid container spacing={4} sx={{ my: 4 }}>
+          {/* First Section */}
           <Grid item xs={12}>
             <Box
               sx={{
@@ -24,14 +36,14 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 textAlign: { xs: "center", sm: "left" },
                 width: "100%",
               }}
+              data-aos="fade-up" // AOS animation on this section
             >
-
-                <img
-                  src={img1}
-                  alt="Image 1"
-                  // style={{ width: "40%", height: "auto", borderRadius: "8px" }} 
-                  className="cardImg"
-                />
+              <img
+                src={img1}
+                alt="Image 1"
+                className="cardImg"
+                data-aos="fade-right" // AOS animation for image
+              />
               <div
                 style={{
                   display: "flex",
@@ -40,6 +52,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   flexDirection: "column",
                   width: { xs: "100%", sm: "40%" },
                 }}
+                data-aos="fade-left" // AOS animation for text content
               >
                 <Typography
                   variant="h3"
@@ -70,6 +83,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
             </Box>
           </Grid>
 
+          {/* Second Section */}
           <Grid item xs={12}>
             <Box
               sx={{
@@ -80,12 +94,14 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 textAlign: { xs: "center", sm: "left" },
                 width: "100%",
               }}
+              data-aos="fade-up"
             >
               <img
                 src={img2}
                 alt="Image 2"
                 className="cardImg"
-                />
+                data-aos="fade-left" // Animation on the second image
+              />
               <div
                 style={{
                   display: "flex",
@@ -94,15 +110,20 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   flexDirection: "column",
                   width: { xs: "100%", sm: "40%" },
                 }}
+                data-aos="fade-right" // Animation on the text content
               >
-                <Typography variant="h3" fontWeight="bold"  sx={{
+                <Typography
+                  variant="h3"
+                  fontWeight="bold"
+                  sx={{
                     fontSize: {
                       xs: "1.5rem",
                       sm: "2rem",
                       md: "2.5rem",
                     },
                     paddingTop: "20px",
-                  }}>
+                  }}
+                >
                   {heading2}
                 </Typography>
                 <Typography
@@ -120,6 +141,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
             </Box>
           </Grid>
 
+          {/* Third Section */}
           <Grid item xs={12}>
             <Box
               sx={{
@@ -130,12 +152,14 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 textAlign: { xs: "center", sm: "left" },
                 width: "100%",
               }}
+              data-aos="fade-up"
             >
               <img
                 src={img3}
-                alt="Image 1"
+                alt="Image 3"
                 className="cardImg"
-                />
+                data-aos="fade-right"
+              />
               <div
                 style={{
                   display: "flex",
@@ -144,15 +168,20 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   flexDirection: "column",
                   width: { xs: "100%", sm: "40%" },
                 }}
+                data-aos="fade-left"
               >
-                <Typography variant="h3" fontWeight="bold"  sx={{
+                <Typography
+                  variant="h3"
+                  fontWeight="bold"
+                  sx={{
                     fontSize: {
                       xs: "1.5rem",
                       sm: "2rem",
                       md: "2.5rem",
                     },
                     paddingTop: "20px",
-                  }}>
+                  }}
+                >
                   {heading3}
                 </Typography>
                 <Typography
@@ -170,33 +199,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
             </Box>
           </Grid>
 
-          {/* <Grid item xs={12}>
-        <Box sx={{ textAlign: 'center', mb: 4 }}>
-            <Typography variant="h4" fontWeight="bold">Stacks</Typography>
-          </Box>          <Grid container spacing={4}>
-            {techStacks.map((tech) => (
-              <Grid item xs={12} sm={4} key={tech.title}>
-                <Card sx={{ maxWidth: 345, margin: "auto" }}>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image={tech.image}
-                    alt={tech.title}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      {tech.title}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {tech.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid> */}
-
+          {/* Tech Stacks Section */}
           <Grid item xs={12}>
             {tectStacks && (
               <>
@@ -210,6 +213,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                   spacing={2}
                   justifyContent="center"
                   alignItems="center"
+                  data-aos="fade-up"
                 >
                   {tectStacks.map((tech) => (
                     <Grid
@@ -219,6 +223,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                       sm={2}
                       md={1}
                       sx={{ textAlign: "center" }}
+                      data-aos="zoom-up"
                     >
                       <img
                         src={tech.src}
