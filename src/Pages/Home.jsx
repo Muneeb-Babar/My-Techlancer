@@ -13,7 +13,7 @@ import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
 import aboutImg from '../assets/images/about.jpg'
-import ScrollToTopButton from "../Components/scrollBtn/ScrollUpBtn";
+import ScrollToTopButton from "../Components/ScrollBtn/ScrollUpBtn";
 
 const Home = () => {
     return (
