@@ -43,6 +43,7 @@
   z-index: -1;}
   
   .team-card:hover {
+    transition: .5s;
     transform: translateY(-10px);
     filter: grayscale(0);
   }
