@@ -4,12 +4,26 @@ import { Link } from 'react-router-dom';
 import VideoModal from '../VideoModal/VideoModal';
 
 import aboutLogo from '../../assets/images/about-logo.png'
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,BoxTitle2}) => {
 
 
 	  const [iframeSrc, setIframeSrc] = useState('about:blank');
 	  const [toggle, setToggle] = useState(false);
+
+	  useEffect(() => {
+        AOS.init({
+            duration: 1000,        
+            once: false,         
+            easing: 'ease-in-out', 
+            offset: 120,          
+            anchorPlacement: 'top-bottom' 
+        });
+        AOS.refresh(); 
+    }, []);
 	
 	  const handelClick = () => {
 		setIframeSrc("https://www.youtube.com/embed/rRid6GCJtgc");
@@ -22,16 +36,16 @@ const About4 = ({MainImg,SubTitle,Title,Content,listTitle1,listTitle2,BoxTitle1,
 
     return (
 			<div className="about-us-area">
-				<div className="container">
+				<div className="container" >
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="section-title text-left">
+							<div className="section-title text-left"  data-aos="fade-left">
 								<h5 className="section-sub-title">{SubTitle}</h5>
 								<h1 className="section-main-title">{parse(Title)}</h1>
 								<p className="section-title-descr" style={{textAlign:'justify'}}>{Content}
 								</p>
 							</div>
-							<div className="about-us-content">
+							<div className="about-us-content"  data-aos="fade-left">
 								<div className="about-us-list">
 									<ul>
 										<li><span>{listTitle1}</span></li>
