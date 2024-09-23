@@ -160,6 +160,7 @@ const Project1 = ({ bgImage, ClassAdd }) => {
                           height: "100%",
                           objectFit: "cover",
                         }}
+                        loading="lazy"
                       />
                     </div>
                     <div className="project-content">

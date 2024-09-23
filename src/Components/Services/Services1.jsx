@@ -1,8 +1,21 @@
 import SectionTitle from "../Common/SectionTitle";
 import data from '../../Data/services1';
 import { Link } from "react-router-dom";
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 const Services1 = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 600,        
+            once: false,         
+            easing: 'ease-in-out', 
+            offset: 120,          
+            anchorPlacement: 'top-bottom' 
+        });
+        AOS.refresh(); 
+    }, []);
     return (
             <div className="sservice-area">
                 <div className="container">
@@ -16,7 +29,7 @@ const Services1 = () => {
                             </div>
                         </div>
                         {data.map((item, i) => (
-                        <div key={i} className="col-xl-3 col-lg-4 col-md-6">
+                        <div key={i} className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-left">
                             <div className="service-single-box">
                                 <div className="service-icon">
                                     <img src={item.icon} alt="service1" width={80} />

@@ -15,42 +15,50 @@ const data = [
     "title": "Web Development",
     "desc": "Build responsive and dynamic websites.",
     "image": web,
+    "btnLink": "/webDevelopment"
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "Digital Marketing",
     "desc": "Boost your brand’s online presence.",
-    "image": digital
+    "image": digital,
+    "btnLink": "/digitalMarketing"
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "Graphic Design",
     "desc": "Create visually stunning graphics.",
-    "image": graphics
+    "image": graphics,
+    "btnLink": "/graphicDesign"
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "2D/3D Character",
     "desc": "Design captivating characters in 2D and 3D.",
-    "image": anime
+    "image": anime,
+    "btnLink": "/art"
+
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "Gaming Assets",
     "desc": "Develop high-quality assets for games.",
-    "image": gamingAssets
+    "image": gamingAssets,
+    "btnLink": "/gamingAssets"
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "Social Media",
     "desc": "Enhance engagement through social platforms.",
-    "image": social
+    "image": social,
+    "btnLink": "/socialMarketing"
   },
   {
     "icon": "/assets/images/inner/service-icon.png",  
     "title": "SEO Optimization",
     "desc": "Improve website rankings and visibility.",
-    "image": seo
+    "image": seo,
+    "btnLink": "/seoOptimization"
   }
 ]
 

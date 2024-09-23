@@ -3,7 +3,7 @@ import Hero1 from "../Components/Banner/Hero1";
 // import Blog1 from "../Components/Blog/Blog1";
 import Brand from "../Components/Brand/Brand";
 import Contact1 from "../Components/Contact/Contact1";
-import Faq from "../Components/Faq/Faq";
+// import Faq from "../Components/Faq/Faq";
 // import Features from "../Components/Features/Features";
 // import Pricing from "../Components/Pricing/Pricing";
 import Project1 from "../Components/Project/Project1";
@@ -13,6 +13,7 @@ import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import heroImage from '../assets/images/hero-thumb.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
 import aboutImg from '../assets/images/about.jpg'
+import ScrollToTopButton from "../Components/ScrollBtn/ScrollUpBtn";
 
 const Home = () => {
     return (
@@ -46,9 +47,10 @@ const Home = () => {
             ></Project1>
             <Brand></Brand>
             {/* <Pricing></Pricing> */}
-            <Faq></Faq>
+            {/* <Faq></Faq> */}
             <Testimonial2></Testimonial2>
             <Contact1></Contact1>
+            <ScrollToTopButton/>
             {/* <Blog1></Blog1> */}
         </div>
     );

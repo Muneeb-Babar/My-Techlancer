@@ -88,16 +88,16 @@ import img78 from "../assets/images/projects/interiorImages/int7.jpg";
 import img79 from "../assets/images/projects/interiorImages/int8.jpg";
 
 // Brand Design
-import img80 from "../assets/images/projects/brandImages/brand1.jpg";
-import img81 from "../assets/images/projects/brandimages/brand2.jpg";
-import img82 from "../assets/images/projects/brandimages/brand3.jpg";
-import img83 from "../assets/images/projects/brandimages/brand4.jpg";
-import img84 from "../assets/images/projects/brandimages/brand5.jpg";
-import img85 from "../assets/images/projects/brandimages/brand6.jpg";
-import img86 from "../assets/images/projects/brandimages/brand7.jpg";
-import img87 from "../assets/images/projects/brandimages/brand8.jpg";
-import img88 from "../assets/images/projects/brandimages/brand9.jpg";
-import img89 from "../assets/images/projects/brandimages/brand10.jpg";
+import img80 from "../assets/images/projects/brandImgs/brand1.jpg";
+import img81 from "../assets/images/projects/brandImgs/brand2.jpg";
+import img82 from "../assets/images/projects/brandImgs/brand3.jpg";
+import img83 from "../assets/images/projects/brandImgs/brand4.jpg";
+import img84 from "../assets/images/projects/brandImgs/brand5.jpg";
+import img85 from "../assets/images/projects/brandImgs/brand6.jpg";
+import img86 from "../assets/images/projects/brandImgs/brand7.jpg";
+import img87 from "../assets/images/projects/brandImgs/brand8.jpg";
+import img88 from "../assets/images/projects/brandImgs/brand9.jpg";
+import img89 from "../assets/images/projects/brandImgs/brand10.jpg";
 
 // Define image arrays
 const ProjectData = [

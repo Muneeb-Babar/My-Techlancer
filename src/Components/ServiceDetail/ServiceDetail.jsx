@@ -136,7 +136,7 @@ const ServiceDetail = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-12">
+                {/* <div className="col-lg-12 col-md-12">
                   <div className="tab_container">
                     <div className="feq-content">
                       <h3 className="faq-title">Frequently Asked Questions</h3>
@@ -165,7 +165,7 @@ const ServiceDetail = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

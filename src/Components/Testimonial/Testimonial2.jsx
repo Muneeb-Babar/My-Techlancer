@@ -2,10 +2,23 @@ import Slider from "react-slick";
 import data from '../../Data/testimonial1.json';
 import SectionTitle from "../Common/SectionTitle";
 
-
 import { SiComma } from "react-icons/si";
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 const Testimonial2 = () => { 
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,        
+            once: false,         
+            easing: 'ease-in-out', 
+            offset: 120,          
+            anchorPlacement: 'top-bottom' 
+        });
+        AOS.refresh(); 
+    }, []);
 
       const settings = {
         dots: false,
@@ -52,7 +65,7 @@ const Testimonial2 = () => {
                         <div className="testi_list owl-carousel cs_slider_gap_301">
                             <Slider {...settings}>
                                 {data.map((item, index)=>(
-                                <div key={index} className="col-lg-12 col-md-12" >
+                                <div key={index} className="col-lg-12 col-md-12" data-aos="fade-left">
                                     <div className="testi-box">
                                         <div className="testi-single-box" >
                                             <div className="testi-box-inner" >

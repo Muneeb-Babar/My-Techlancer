@@ -6,6 +6,9 @@ import team4 from '../../assets/images/teamMembers/sales1-ex.jpeg'
 import team5 from '../../assets/images/teamMembers/sales2-ex.jpeg'
 import team6 from '../../assets/images/teamMembers/bussniess.jpeg'
 import SectionTitle from "../Common/SectionTitle";
+import AOS from 'aos'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 
 const teamMembers = [
@@ -43,8 +46,18 @@ const teamMembers = [
 
 // TeamCard Component
 const TeamCard = ({ member }) => {
+  useEffect(() => {
+    AOS.init({
+        duration: 1000,        
+        once: false,         
+        easing: 'ease-in-out', 
+        offset: 120,          
+        anchorPlacement: 'top-bottom' 
+    });
+    AOS.refresh(); 
+}, []);
   return (
-    <div className="team-card" style={{marginTop: "20px"}}>
+    <div className="team-card" style={{marginTop: "20px"}} data-aos="fade-left">
       <div className="team-card-image">
         <img src={member.image} alt={member.name} />
       </div>
@@ -56,6 +69,7 @@ const TeamCard = ({ member }) => {
 };
 
 const TeamSection = () => {
+
   return (
 
     <div className="container" style={{width:'100%',marginTop:'5rem'}}>
@@ -72,7 +86,9 @@ const TeamSection = () => {
     
     <div className="team-section">
       {teamMembers.map((member, index) => (
-        <TeamCard key={index} member={member} />
+        
+          <TeamCard key={index} member={member} />
+        
       ))}
     </div>
     </div>
