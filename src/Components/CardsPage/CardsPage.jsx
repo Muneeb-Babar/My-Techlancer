@@ -43,6 +43,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 alt="Image 1"
                 className="cardImg"
                 data-aos="fade-right" // AOS animation for image
+                loading="lazy"
               />
               <div
                 style={{
