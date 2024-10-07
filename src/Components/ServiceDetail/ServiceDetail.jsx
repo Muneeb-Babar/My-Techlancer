@@ -3,20 +3,25 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { FaDiagramSuccessor } from "react-icons/fa6";
 import { FaFolderOpen } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import data from "../../Data/faq.json";
+// import data from "../../Data/faq.json";
 
 import serviceDetail from "../../assets/images/service-details.png";
 import contactImag from "../../assets/images/breadcumb-bg.png";
 
 const ServiceDetail = () => {
-  const Services =[
-    {"title": "web development", "linkBtn": "/webdevelopment"},
-    {"title": "digital marketing", "linkBtn": "/digitalmarketing"},
-    {"title": "graphic design", "linkBtn": "/graphicdesign"},
-    {"title": "2d/3d character", "linkBtn": "/art"},
-    {"title": "gaming assets", "linkBtn": "/gamingassets"},
-    {"title": "social media", "linkBtn": "/socialmarketing"},
-    {"title": "seo optimization", "linkBtn": "/seooptimization"}
+  const Services = [
+    { title: "Web Development", linkBtn: "/webdevelopment" },
+    { title: "App Development", linkBtn: "/appdevelopment" },
+    { title: "GOOGLE Ads", linkBtn: "/goggleAds" },
+    { title: "Branding", linkBtn: "/branding" },
+    { title: "2D/3D Character Design", linkBtn: "/art" },
+    { title: "Video Editing", linkBtn: "/videoEditing" },
+    { title: "Social Media Marketing", linkBtn: "/socialMarketing" },
+    { title: "SEO Optimization", linkBtn: "/seoOptimization" },
+    { title: "E-book Design", linkBtn: "/eBook" },
+    { title: "2D Illustrations", linkBtn: "/illustrations" },
+    { title: "Book Cover Design", linkBtn: "/bookCover" },
+    { title: "2D/3D Architecture", linkBtn: "/2D3DArchitecture" },
   ];
 
   const accordionContentRef = useRef(null);
@@ -126,11 +131,19 @@ const ServiceDetail = () => {
                       <div className="service-det-content">
                         <h3>Empowering Your Success</h3>
                         <p style={{ textAlign: "justify" }}>
-                          We deliver ethical, innovative solutions that drive
-                          impactful results, combining sustainable methods with
-                          forward-thinking strategies. Our focus on process
-                          design and continuous improvement ensures lasting
-                          success in today’s dynamic environment.
+                          At My Techlancer, we believe in the power of
+                          innovation and ethics to transform challenges into
+                          opportunities. Our mission is to deliver ethical,
+                          innovative solutions that drive impactful results,
+                          ensuring that every strategy we implement is grounded
+                          in sustainability and responsible practices. We
+                          combine sustainable methods with forward-thinking
+                          strategies to create solutions that not only address
+                          immediate needs but also foster long-term growth. By
+                          prioritizing process design and continuous
+                          improvement, we empower our clients to navigate the
+                          complexities of today's dynamic environment with
+                          confidence.
                         </p>
                       </div>
                     </div>
@@ -212,11 +225,18 @@ const ServiceDetail = () => {
                     />
                   </div>
                   <p className="widget-sidber-contact-text">Call Us Anytime</p>
-                  <h3 className="widget-sidber-contact-number">
-                    +44 7983 309038
+                  <h3
+                    className="widget-sidber-contact-number"
+                    style={{ fontSize: "1rem" }}
+                  >
+                    +44 7983 309038 <br />
+                    +92-13-2996086
                   </h3>
                   <span className="widget-sidber-contact-gmail">
-                    <a href="mailto:info@mytechlancers.com" style={{color:'white'}}>
+                    <a
+                      href="mailto:info@mytechlancers.com"
+                      style={{ color: "white" }}
+                    >
                       <MdMarkEmailRead
                         color="#008eb2"
                         size={30}

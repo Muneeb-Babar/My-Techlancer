@@ -20,31 +20,43 @@ import img18 from "../assets/images/projects/Tetmann-Energies-Nigeria-Ltd.png";
 import img19 from "../assets/images/projects/Twins-EP-Security-Transportation-LLC.png";
 import img20 from "../assets/images/projects/Waddell-Wanderlust.png";
 
+import video1 from '../assets/videos/gaming.mov'
+import video2 from '../assets/videos/gamingman.mov'
+
 // Gaming Section
-import img21 from "../assets/images/projects/gamingAssets/game1.webp";
-import img22 from "../assets/images/projects/gamingAssets/game2.jpg";
-import img23 from "../assets/images/projects/gamingAssets/game3.jpg";
-import img24 from "../assets/images/projects/gamingAssets/game4.webp";
-import img25 from "../assets/images/projects/gamingAssets/game5.jpg";
-import img26 from "../assets/images/projects/gamingAssets/game6.jpg";
-import img27 from "../assets/images/projects/gamingAssets/game7.jpg";
-import img28 from "../assets/images/projects/gamingAssets/game8.jpg";
-import img29 from "../assets/images/projects/gamingAssets/game9.jpg";
-import img30 from "../assets/images/projects/gamingAssets/game10.jpg";
-import img31 from "../assets/images/projects/gamingAssets/game11.jpg";
-import img32 from "../assets/images/projects/gamingAssets/game13.jpg";
-import img33 from "../assets/images/projects/gamingAssets/game14.jpg";
-import img34 from "../assets/images/projects/gamingAssets/game15.jpg";
-import img35 from "../assets/images/projects/gamingAssets/game16.jpg";
-import img36 from "../assets/images/projects/gamingAssets/game17.jpg";
-import img37 from "../assets/images/projects/gamingAssets/game18.jpg";
-import img38 from "../assets/images/projects/gamingAssets/game19.jpg";
-import img39 from "../assets/images/projects/gamingAssets/game20.jpg";
-import img40 from "../assets/images/projects/gamingAssets/game21.jpg";
-import img41 from "../assets/images/projects/gamingAssets/game22.jpg";
-import img42 from "../assets/images/projects/gamingAssets/game23.jpg";
-import img43 from "../assets/images/projects/gamingAssets/game24.jpg";
-import img44 from "../assets/images/projects/gamingAssets/game25.jpg";
+// import img21 from "../assets/images/projects/gamingAssets/game1.webp";
+// import img22 from "../assets/images/projects/gamingAssets/game2.jpg";
+// import img23 from "../assets/images/projects/gamingAssets/game3.jpg";
+// import img24 from "../assets/images/projects/gamingAssets/game4.webp";
+// import img25 from "../assets/images/projects/gamingAssets/game5.jpg";
+// import img26 from "../assets/images/projects/gamingAssets/game6.jpg";
+// import img27 from "../assets/images/projects/gamingAssets/game7.jpg";
+// import img28 from "../assets/images/projects/gamingAssets/game8.jpg";
+// import img29 from "../assets/images/projects/gamingAssets/game9.jpg";
+// import img30 from "../assets/images/projects/gamingAssets/game10.jpg";
+// import img31 from "../assets/images/projects/gamingAssets/game11.jpg";
+// import img32 from "../assets/images/projects/gamingAssets/game13.jpg";
+// import img33 from "../assets/images/projects/gamingAssets/game14.jpg";
+// import img34 from "../assets/images/projects/gamingAssets/game15.jpg";
+// import img35 from "../assets/images/projects/gamingAssets/game16.jpg";
+// import img36 from "../assets/images/projects/gamingAssets/game17.jpg";
+// import img37 from "../assets/images/projects/gamingAssets/game18.jpg";
+// import img38 from "../assets/images/projects/gamingAssets/game19.jpg";
+// import img39 from "../assets/images/projects/gamingAssets/game20.jpg";
+// import img40 from "../assets/images/projects/gamingAssets/game21.jpg";
+// import img41 from "../assets/images/projects/gamingAssets/game22.jpg";
+// import img42 from "../assets/images/projects/gamingAssets/game23.jpg";
+// import img43 from "../assets/images/projects/gamingAssets/game24.jpg";
+// import img44 from "../assets/images/projects/gamingAssets/game25.jpg";
+
+//3D char
+
+import img21 from "../assets/images/projects/3D/chr1.png";
+import img22 from "../assets/images/projects/3D/chr2.png";
+import img23 from "../assets/images/projects/3D/chr3.png";
+import img24 from "../assets/images/projects/3D/chr4.png";
+import img25 from "../assets/images/projects/3D/chr5.png";
+import img26 from "../assets/images/projects/3D/chr6.png";
 
 // 2D Art
 import img45 from "../assets/images/projects/2D/art3.jpg";
@@ -123,34 +135,40 @@ const ProjectData = [
   { img: img20, title: "Waddell Wanderlust", desc: "Travel Services", category: "Marketing" },
 // ];
 
-
+  { img: img21, title: "Heroic Warrior", category: "3DCharacter" },
+  { img: img22, title: "Fantasy Creature", category: "3DCharacter" },
+  { img: img23, title: "Modern Hero", category: "3DCharacter" },
+  { img: img24, title: "Villainous Figure", category: "3DCharacter" },
+  { img: img25, title: "Cute Sidekick", category: "3DCharacter" },
+  { img: img26, title: "Mystical Mage", category: "3DCharacter" },
 
 // const gamingImages = [
-  { img: img21, title: "Shadow Blade", category: "GamingAssets" },
-  { img: img22, title: "Mystic Realm", category: "GamingAssets" },
-  { img: img23, title: "Cyber Hunter", category: "GamingAssets" },
-  { img: img24, title: "Dragon's Roar", category: "GamingAssets" },
-  { img: img25, title: "Phantom Strike", category: "GamingAssets" },
-  { img: img26, title: "Arcane Quest", category: "GamingAssets" },
-  { img: img27, title: "Galaxy Defender", category: "GamingAssets" },
-  { img: img28, title: "Inferno Siege", category: "GamingAssets" },
-  { img: img29, title: "Neon Racer", category: "GamingAssets" },
-  { img: img30, title: "Crystal Shards", category: "GamingAssets" },
-  { img: img31, title: "Silent Assassin", category: "GamingAssets" },
-  { img: img32, title: "Mecha Titan", category: "GamingAssets" },
-  { img: img33, title: "Lost Horizon", category: "GamingAssets" },
-  { img: img34, title: "Eternal Storm", category: "GamingAssets" },
-  { img: img35, title: "Vortex Fury", category: "GamingAssets" },
-  { img: img36, title: "Nightfall Skies", category: "GamingAssets" },
-  { img: img37, title: "Iron Warden", category: "GamingAssets" },
-  { img: img38, title: "Frostborn Saga", category: "GamingAssets" },
-  { img: img39, title: "Quantum Shift", category: "GamingAssets" },
-  { img: img40, title: "Starlight Crusade", category: "GamingAssets" },
-  { img: img41, title: "Rogue Horizon", category: "GamingAssets" },
-  { img: img42, title: "Void Runner", category: "GamingAssets" },
-  { img: img43, title: "Savage Dominion", category: "GamingAssets" },
-  { img: img44, title: "Dusk Vanguard", category: "GamingAssets" },
-  { img: img45, title: "Titanfall Legacy", category: "GamingAssets" },
+  // { img: img21, title: "Shadow Blade", category: "GamingAssets" },
+  // { img: img22, title: "Mystic Realm", category: "GamingAssets" },
+  // { img: img23, title: "Cyber Hunter", category: "GamingAssets" },
+  // { img: img24, title: "Dragon's Roar", category: "GamingAssets" },
+  // { img: img25, title: "Phantom Strike", category: "GamingAssets" },
+  // { img: img26, title: "Arcane Quest", category: "GamingAssets" },
+  // { img: img27, title: "Galaxy Defender", category: "GamingAssets" },
+  // { img: img28, title: "Inferno Siege", category: "GamingAssets" },
+  // { img: img29, title: "Neon Racer", category: "GamingAssets" },
+  // { img: img30, title: "Crystal Shards", category: "GamingAssets" },
+  // { img: img31, title: "Silent Assassin", category: "GamingAssets" },
+  // { img: img32, title: "Mecha Titan", category: "GamingAssets" },
+  // { img: img33, title: "Lost Horizon", category: "GamingAssets" },
+  // { img: img34, title: "Eternal Storm", category: "GamingAssets" },
+  // { img: img35, title: "Vortex Fury", category: "GamingAssets" },
+  // { img: img36, title: "Nightfall Skies", category: "GamingAssets" },
+  // { img: img37, title: "Iron Warden", category: "GamingAssets" },
+  // { img: img38, title: "Frostborn Saga", category: "GamingAssets" },
+  // { img: img39, title: "Quantum Shift", category: "GamingAssets" },
+  // { img: img40, title: "Starlight Crusade", category: "GamingAssets" },
+  // { img: img41, title: "Rogue Horizon", category: "GamingAssets" },
+  // { img: img42, title: "Void Runner", category: "GamingAssets" },
+  // { img: img43, title: "Savage Dominion", category: "GamingAssets" },
+  // { img: img44, title: "Dusk Vanguard", category: "GamingAssets" },
+  { img: video1,  category: "GamingAssets" },
+  { img: video2,  category: "GamingAssets" },
   
 // ];
 

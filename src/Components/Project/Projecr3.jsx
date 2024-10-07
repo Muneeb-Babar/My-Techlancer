@@ -3,42 +3,16 @@ import ProjectData from "../../Data/project2Data.js";
 
 const Projecr3 = () => {
   const categoryMenu = [
-    {
-      title: "Marketing",
-      category: "Marketing",
-    },
-    {
-      title: "Software",
-      category: "Software",
-    },
-    {
-      title: "Real Estate",
-      category: "RealEstate",
-    },
-    {
-      title: "Technology",
-      category: "Technology",
-    },
-    {
-      title: "Gaming Assets",
-      category: "GamingAssets",
-    },
-    {
-      title: "2D Arts",
-      category: "2DArts",
-    },
-    {
-      title: "3D Models",
-      category: "3DModels",
-    },
-    {
-      title: "Brand Designing",
-      category: "BrandDesigning",
-    },
-    {
-      title: "Interior Designing",
-      category: "InteriorDesigning",
-    },
+    { title: "Marketing", category: "Marketing" },
+    { title: "Software", category: "Software" },
+    { title: "Real Estate", category: "RealEstate" },
+    { title: "Technology", category: "Technology" },
+    { title: "Gaming Assets", category: "GamingAssets" },
+    { title: "2D Illustrations", category: "2DArts" },
+    { title: "3D Models", category: "3DModels" },
+    { title: "Brand Designing", category: "BrandDesigning" },
+    { title: "3D Character", category: "3DCharacter" },
+    { title: "Interior Designing", category: "InteriorDesigning" },
   ];
 
   const [active, setActive] = useState("all");
@@ -62,7 +36,7 @@ const Projecr3 = () => {
                       onClick={() => setActive(item.category)}
                       className={active === item.category ? "active" : ""}
                       key={index}
-                      style={{padding:'10px'}}
+                      style={{ padding: '10px' }}
                     >
                       {item.title}
                     </li>
@@ -87,7 +61,7 @@ const Projecr3 = () => {
               <div
                 className="case-study-single-box"
                 style={{
-                  height: "800px", 
+                  height: "800px",
                   display: "flex",
                   flexDirection: "column",
                 }}
@@ -96,34 +70,49 @@ const Projecr3 = () => {
                   className="case-study-thumb"
                   style={{
                     height: "700px",
-                    overflow: "hidden", 
+                    overflow: "hidden",
                   }}
                 >
-                  <img
-                    src={item.img}
-                    alt="thumb"
+                  {item.category === "GamingAssets" ? (
+                    <video
+                      src={item.img} // Assuming `img` contains the video source
+                      controls
+                      style={{
+                        width: "100%",
+                        height: "90%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  ) : (
+                    <img
+                      src={item.img}
+                      alt="thumb"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  )}
+                </div>
+                {/* Remove the title for Gaming Assets */}
+                {item.category !== "GamingAssets" && (
+                  <div
+                    className="case-study-content1"
                     style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover", 
+                      flexGrow: 1,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      padding: "10px",
+                      border: '1px solid #008eb2',
                     }}
-                  />
-                </div>
-                <div
-                  className="case-study-content1"
-                  style={{
-                    flexGrow: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    padding: "10px",
-                    border:'1px solid #008eb2'
-                  }}
-                >
-                  <div className="case-study-title" >
-                    <h5 style={{fontWeight: "bold"}}>{item.title}</h5>
+                  >
+                    <div className="case-study-title">
+                      <h5 style={{ fontWeight: "bold" }}>{item.title}</h5>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           ))}

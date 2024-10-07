@@ -13,13 +13,18 @@ const Footer = () => {
     }, [location]);
 
     const Services = [
-        { title: 'Web Development', linkServives: 'webDevelopment' },
-        { title: 'Digital Marketing', linkServives: 'digitalMarketing' },
-        { title: 'Social Media Handling', linkServives: 'socialMarketing' },
-        { title: 'Gaming Assets', linkServives: 'gamingAssets' },
-        { title: 'Graphic Design', linkServives: 'graphicDesign' },
-        { title: 'Search Engine Optimization', linkServives: 'seoOptimization' },
-        { title: '2D/3D Character Modeling', linkServives: 'art' }
+        { title: "Web Development", linkBtn: "/webdevelopment" },
+        { title: "App Development", linkBtn: "/appdevelopment" },
+        { title: "google Ads", linkBtn: "/goggleAds" },
+        { title: "Branding", linkBtn: "/branding" },
+        // { title: "2D/3D Character Design", linkBtn: "/art" },
+        { title: "Video Editing", linkBtn: "/videoEditing" },
+        { title: "Social Media Marketing", linkBtn: "/socialMarketing" },
+        { title: "SEO Optimization", linkBtn: "/seoOptimization" },
+        // { title: "E-book Design", linkBtn: "/eBook" },
+        // { title: "2D Illustrations", linkBtn: "/illustrations" },
+        // { title: "Book Cover Design", linkBtn: "/bookCover" },
+        // { title: "2D/3D Architecture", linkBtn: "/2D3DArchitecture" },
     ];
       const UsefulLinks = [
         {title:'About Company', link:'/about'},
@@ -114,7 +119,7 @@ const Footer = () => {
                                 </div>
                                 <ul>
                                 {Services.map((item, i) => ( 
-                                    <li key={i}><Link to={item.linkServives}>{item.title}</Link></li>
+                                    <li key={i}><Link to={item.linkBtn}>{item.title}</Link></li>
                                 ))}
                                 </ul>
                             </div>
