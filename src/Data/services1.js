@@ -91,8 +91,8 @@ const data = [
     "btnLink": "/bookCover"
   },
   {
-    "title": "2/3D Architecture",
-    "desc": "Bring architectural concepts with detailed 2D/3D designs.",
+    "title": "2D/3D Architecture",
+    "desc": "Bring architectural concepts to life with detailed 2D and 3D designs.",
     "icon": architecture,
     "btnText": "READ MORE",
     "btnLink": "/2D3DArchitecture"
