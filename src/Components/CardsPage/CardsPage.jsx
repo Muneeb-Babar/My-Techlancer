@@ -102,6 +102,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 alt="Image 2"
                 className="cardImg"
                 data-aos="fade-left" // Animation on the second image
+                loading="lazy"
               />
               <div
                 style={{
@@ -160,6 +161,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
                 alt="Image 3"
                 className="cardImg"
                 data-aos="fade-right"
+                loading="lazy"
               />
               <div
                 style={{
