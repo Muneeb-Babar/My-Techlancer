@@ -22,7 +22,7 @@ import ServiceDetails from "../Pages/ServiceDetails";
 // import BlogDetails from "../Pages/BlogDetails";
 import Project from "../Pages/Project";
 import WebDevelopment from "../Pages/webDevelopment";
-import DigitalMarketing from "../Pages/DigitalMarketing";
+import GoogleAds from "../Pages/GoogleAds";
 import GraphicDesign from "../Pages/graphicDesign";
 import Art from "../Pages/Art";
 import SocialMedia from "../Pages/socialMedia";
@@ -31,7 +31,7 @@ import SeoOptimization from "../Pages/seoOptimization";
 import AppDevelopment from "../Pages/AppDevelopment";
 import EBook from "../Pages/EBook";
 import BookCover from "../Pages/BookCover";
-import VideoEditing from "../Pages/videoEditing";
+import VideoEditing from "../Pages/VideoEditing";
 import Illustrations from "../Pages/Illustrations";
 import Architecture from "../Pages/Architecture";
 
@@ -95,7 +95,7 @@ export const router = createBrowserRouter([
           }, 
           {
             path: "/goggleAds",
-            element: <DigitalMarketing></DigitalMarketing>,
+            element: <GoogleAds></GoogleAds>,
           }, 
           {
             path: "/branding",

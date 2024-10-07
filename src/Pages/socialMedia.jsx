@@ -47,7 +47,7 @@ const SocialMedia = () => {
       Comp1={Comp1}
       Comp2={Comp2}
       Comp3={Comp3}
-      pageName={"Social Media Strategies"}
+      pageName={"Social Media Management"}
     />
   );
   
