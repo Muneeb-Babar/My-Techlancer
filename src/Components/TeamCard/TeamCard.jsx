@@ -1,17 +1,25 @@
 import React from "react";
 import "./TeamSection.css"; 
+import team1 from '../../assets/images/teamMembers/ceo.jpeg'
 import team2 from '../../assets/images/teamMembers/supervisor.jpeg'
 import team3 from '../../assets/images/teamMembers/sales-manager.jpeg'
 import team4 from '../../assets/images/teamMembers/sales1-ex.jpeg'
 import team5 from '../../assets/images/teamMembers/sales2-ex.jpeg'
 import team6 from '../../assets/images/teamMembers/bussniess.jpeg'
 import SectionTitle from "../Common/SectionTitle";
+
 import AOS from 'aos'
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 
 
 const teamMembers = [
+  {
+    "image": team1,
+    "name": "Muhammad Yaseen",
+    "role": "Founder",
+    "description": "Leads the organization, setting the vision and strategy for long-term success."
+  },
     {
         image: team2,  
         name: "Syed Mehboob",

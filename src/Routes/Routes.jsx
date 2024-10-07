@@ -28,6 +28,12 @@ import Art from "../Pages/Art";
 import SocialMedia from "../Pages/socialMedia";
 import GamingAssets from "../Pages/gamingAssets";
 import SeoOptimization from "../Pages/seoOptimization";
+import AppDevelopment from "../Pages/AppDevelopment";
+import EBook from "../Pages/EBook";
+import BookCover from "../Pages/BookCover";
+import VideoEditing from "../Pages/videoEditing";
+import Illustrations from "../Pages/Illustrations";
+import Architecture from "../Pages/Architecture";
 
 
 export const router = createBrowserRouter([
@@ -84,11 +90,15 @@ export const router = createBrowserRouter([
             element: <WebDevelopment></WebDevelopment>,
           }, 
           {
-            path: "/digitalMarketing",
+            path: "/appDevelopment",
+            element: <AppDevelopment></AppDevelopment>,
+          }, 
+          {
+            path: "/goggleAds",
             element: <DigitalMarketing></DigitalMarketing>,
           }, 
           {
-            path: "/graphicDesign",
+            path: "/branding",
             element: <GraphicDesign></GraphicDesign>,
           }, {
             path: "/art",
@@ -103,6 +113,27 @@ export const router = createBrowserRouter([
             path: "/seoOptimization",
             element: <SeoOptimization></SeoOptimization>,
           }, 
+          {
+            path: "/eBook",
+            element: <EBook></EBook>,
+          }, 
+          {
+            path: "/bookCover",
+            element: <BookCover></BookCover>,
+          }, 
+          {
+            path: "/videoEditing",
+            element: <VideoEditing></VideoEditing>,
+          }, 
+          {
+            path: "/illustrations",
+            element: <Illustrations></Illustrations>,
+          }, 
+          {
+            path: "/2D3DArchitecture",
+            element: <Architecture></Architecture>,
+          }, 
+          
         // {
         //   path: "/blog",
         //   element: <Blog></Blog>,

@@ -9,11 +9,11 @@ import team6 from '../assets/images/teamMembers/bussniess.jpeg'
 
 
 const data=[
-  // {
-  //   "img": team1,  
-  //   "title": "Muhammad Yaseen",
-  //   "desc": "Founder"
-  // },
+  {
+    "img": team1,  
+    "title": "Muhammad Yaseen",
+    "desc": "Founder"
+  },
   {
     "img": team2,  
     "title": "Eeshan Aslam",

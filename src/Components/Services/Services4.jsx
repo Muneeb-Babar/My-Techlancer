@@ -32,11 +32,11 @@ const Services4 = () => {
                     <div key={i} className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-left">
                         <div className="single-service-box">
                             <div className="service-thumb">
-                                <img src={item.image} alt="thumb" />
+                                <img src={item.image} alt="thumb" style={{height:'250px'}}/>
                             </div>
-                            <div className="service-icon">
+                            {/* <div className="service-icon">
                                 <img src={item.icon} alt="icon" />
-                            </div>
+                            </div> */}
                             <div className="service-content">
                                 <h3 className="service-title"><Link to={item.btnLink}>{item.title}</Link></h3>
                                 <p className="service-text">{item.desc}</p>

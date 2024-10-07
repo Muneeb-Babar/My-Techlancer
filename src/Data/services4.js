@@ -1,67 +1,89 @@
-
 import web from '../assets/images/webDev.avif'
+import app from '../assets/images/app.avif'
 import digital from '../assets/images/digitalMarketing.avif'
 import graphics from '../assets/images/graphicDesign.avif'
 import anime from '../assets/images/anime.avif'
-import gamingAssets from '../assets/images/gamingAssets.avif'
 import social from '../assets/images/socialMedia.avif'
 import seo from '../assets/images/seo.avif'
-
-
+import ebook from '../assets/images/ebook.avif'
+import book from '../assets/images/book.avif'
+import archticture from '../assets/images/archticture.avif'
+import dmodel from '../assets/images/dmodel.avif'
+import video from '../assets/images/video.avif'
 
 const data = [
   {
-    "icon": "/assets/images/inner/service-icon.png",  
+    "image": web,
     "title": "Web Development",
     "desc": "Build responsive and dynamic websites.",
-    "image": web,
     "btnLink": "/webDevelopment"
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
-    "title": "Digital Marketing",
-    "desc": "Boost your brand’s online presence.",
+    "image": app,
+    "title": "App Development",
+    "desc": "Build responsive and dynamic Mobile App.",
+    "btnLink": "/appDevelopment"
+  },
+  {
     "image": digital,
-    "btnLink": "/digitalMarketing"
+    "title": "Google Ads",
+    "desc": "Boost your brand’s online presence.",
+    "btnLink": "/goggleAds"
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
-    "title": "Graphic Design",
-    "desc": "Create visually stunning graphics.",
     "image": graphics,
-    "btnLink": "/graphicDesign"
+    "title": "Branding",
+    "desc": "Create visually stunning graphics.",
+    "btnLink": "/branding"
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
-    "title": "2D/3D Character",
-    "desc": "Design captivating characters in 2D and 3D.",
     "image": anime,
+    "title": "2D/3D Animation",
+    "desc": "Design captivating characters in 2D and 3D.",
     "btnLink": "/art"
-
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
-    "title": "Gaming Assets",
-    "desc": "Develop high-quality assets for games.",
-    "image": gamingAssets,
-    "btnLink": "/gamingAssets"
+    "image": video,
+    "title": "Video Editing",
+    "desc": "Edit and enhance videos to create professional content.",
+    "btnLink": "/videoEditing"
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
+    "image": social,
     "title": "Social Media",
     "desc": "Enhance engagement through social platforms.",
-    "image": social,
     "btnLink": "/socialMarketing"
   },
   {
-    "icon": "/assets/images/inner/service-icon.png",  
+    "image": seo,
     "title": "SEO Optimization",
     "desc": "Improve website rankings and visibility.",
-    "image": seo,
     "btnLink": "/seoOptimization"
+  },
+  {
+    "image": ebook,
+    "title": "E-book Design",
+    "desc": "Visually appealing and professionally formatted e-books.",
+    "btnLink": "/ebookDesign"
+  },
+  {
+    "image": dmodel,
+    "title": "2D Illustrations",
+    "desc": "Develop eye-catching and high-quality visual 2D Illustrations assets.",
+    "btnLink": "/2DIllustrations"
+  },
+  {
+    "image": book,
+    "title": "Book Cover Design",
+    "desc": "Design unique and captivating book covers that stand out.",
+    "btnLink": "/bookCoverDesign"
+  },
+  {
+    "image": archticture,
+    "title": "2D/3D Architecture",
+    "desc": "Bring architectural concepts to life with detailed 2D and 3D designs.",
+    "btnLink": "/2D3DArchitecture"
   }
 ]
 
 export default data;
-
-

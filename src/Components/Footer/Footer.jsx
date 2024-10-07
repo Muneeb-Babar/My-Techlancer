@@ -88,7 +88,7 @@ const Footer = () => {
                                 <div className="footer-social">
                                     <div className="footer-widget-social">
                                         <a href="https://www.facebook.com/share/rgUT8L9Gr9eQPM8y/?mibextid=LQQJ4d" target="new"><i className="bi bi-facebook" style={{color:'white',fontSize:'20px'}}></i></a>
-                                        <a href="#"><i className="bi bi-twitter" style={{color:'white',fontSize:'20px'}}></i></a>
+                                        {/* <a href="#"><i className="bi bi-twitter" style={{color:'white',fontSize:'20px'}}></i></a> */}
                                         <a href="https://www.linkedin.com/company/m-y-techlancers/" target="new"><i className="bi bi-linkedin" style={{color:'white',fontSize:'20px'}}></i></a>
                                         <a href="https://www.instagram.com/m.y.techlancers?igsh=MW5udjVydHF4aWhmNA==" target="new"><i className="bi bi-instagram" style={{color:'white',fontSize:'20px'}}></i></a>                                        
                                     </div>
