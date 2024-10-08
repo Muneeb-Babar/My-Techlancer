@@ -1,7 +1,7 @@
 import React from 'react'
 import CardPage from "../Components/CardsPage/CardsPage";
 
-import character1 from '../assets/images/character-modeling.avif'
+import character1 from '../assets/images/character.jpg'
 import character2 from '../assets/images/projects/2D/art5.jpg'
 import character3 from '../assets/images/character-modeling2.avif'
 
@@ -41,7 +41,7 @@ const Art = () => {
       Comp1={Comp1}
       Comp2={Comp2}
       Comp3={Comp3}
-      pageName={"2D/3D Character Modeling"}
+      pageName={"2D / 3D Animation"}
     />
   );
 };

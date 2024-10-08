@@ -13,7 +13,7 @@ import Swift from "../assets/images/stacks/web/swift.png";
 import Java from "../assets/images/stacks/web/java.png";
 import Web from "../assets/images/stacks/web/webdevelopment.avif";
 import Front from "../assets/images/stacks/web/frontend.avif";
-import Back from "../assets/images/stacks/web/backend.avif";
+import Back from "../assets/images/stacks/web/back.jpg";
 
 const WebDevelopment = () => {
   const techStacks = [

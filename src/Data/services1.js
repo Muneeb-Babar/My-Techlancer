@@ -74,7 +74,7 @@ const data = [
     "desc": "visually appealing and professionally formatted e-books.",
     "icon": ebook,
     "btnText": "READ MORE",
-    "btnLink": "/ebookDesign"
+    "btnLink": "/ebook"
   },
   {
     "title": "Gaming Assets",
@@ -88,14 +88,14 @@ const data = [
     "desc": "Develop eye-catching and  high-quality visual 2D Illustrations assets.",
     "icon": dmodel,
     "btnText": "READ MORE",
-    "btnLink": "/2DIllustrations"
+    "btnLink": "/illustrations"
   },
   {
     "title": "Book Cover Design",
     "desc": "Design unique and captivating covers that stand out.",
     "icon": book,
     "btnText": "READ MORE",
-    "btnLink": "/bookCoverDesign"
+    "btnLink": "/bookCover"
   },
   {
     "title": "2D/3D Architecture",
