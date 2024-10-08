@@ -3,7 +3,7 @@ import graphics from '../assets/images/CardImages/graphics.png'
 import seo from '../assets/images/CardImages/seo.png'
 import anime from '../assets/images/CardImages/anime.png'
 import socialmedia from '../assets/images/CardImages/socialmedia.png'
-// import gaming from '../assets/images/CardImages/gaming.png'
+import gaming from '../assets/images/CardImages/gaming.png'
 import digital from '../assets/images/CardImages/digital.png'
 import app from '../assets/images/CardImages/app.png'
 import book from '../assets/images/CardImages/book.png'
@@ -75,6 +75,13 @@ const data = [
     "icon": ebook,
     "btnText": "READ MORE",
     "btnLink": "/ebookDesign"
+  },
+  {
+    "title": "Gaming Assets",
+    "desc": "Explore a collection of high-quality gaming assets",
+    "icon": gaming,
+    "btnText": "READ MORE",
+    "btnLink": "/gamingAssets"
   },
   {
     "title": "2D Illustrations",

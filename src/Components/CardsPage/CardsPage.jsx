@@ -3,6 +3,7 @@ import { Container, Grid, Typography, Box } from "@mui/material";
 import BreadCumb from "../../Components/Common/BreadCumb";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SwipeButton from "../SwipeButton/SwipeButton";
 
 const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
   const { img1, heading1, para1 } = Comp1;
@@ -237,6 +238,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
             )}
           </Grid>
         </Grid>
+        <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}><SwipeButton/></div>
       </Container>
     </>
   );

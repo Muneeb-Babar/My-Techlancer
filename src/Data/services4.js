@@ -10,6 +10,7 @@ import book from '../assets/images/book.avif'
 import archticture from '../assets/images/archticture.avif'
 import dmodel from '../assets/images/dmodel.avif'
 import video from '../assets/images/video.avif'
+import gamingAssets from '../assets/images/gamingAssets.avif'
 
 const data = [
   {
@@ -72,6 +73,12 @@ const data = [
     "desc": "Develop eye-catching and high-quality visual 2D Illustrations assets.",
     "btnLink": "/2DIllustrations"
   },
+  {
+    "image": gamingAssets,
+    "title": "Gaming Assets",
+    "desc": "Explore a collection of high-quality gaming assets.",
+    "btnLink": "/gamingAssets"
+  },  
   {
     "image": book,
     "title": "Book Cover Design",
