@@ -3539,6 +3539,7 @@ ul.testi-rating li {
 }
 
 .testimonial-area.style-two .testi-single-box {
+  height: 550px;
   background: url(/assets/images/home-two/test-box-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
