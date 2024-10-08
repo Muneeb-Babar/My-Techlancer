@@ -65,7 +65,7 @@ const data = [
     "image": ebook,
     "title": "E-book Design",
     "desc": "Visually appealing and professionally formatted e-books.",
-    "btnLink": "/ebookDesign"
+    "btnLink": "/ebook"
   },
   {
     "image": dmodel,
@@ -83,7 +83,7 @@ const data = [
     "image": book,
     "title": "Book Cover Design",
     "desc": "Design unique and captivating book covers that stand out.",
-    "btnLink": "/bookCoverDesign"
+    "btnLink": "/bookCover"
   },
   {
     "image": archticture,
