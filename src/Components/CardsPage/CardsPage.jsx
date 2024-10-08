@@ -3,12 +3,15 @@ import { Container, Grid, Typography, Box } from "@mui/material";
 import BreadCumb from "../../Components/Common/BreadCumb";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SwipeButton from "../SwipeButton/SwipeButton";
+import SwipeButton from "../SwipeButton/SwipeButton.jsx";
+import { useNavigate } from "react-router-dom";
 
 const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
   const { img1, heading1, para1 } = Comp1;
   const { img2, heading2, para2 } = Comp2;
   const { img3, heading3, para3 } = Comp3;
+
+  const navigate=useNavigate()
 
   // Initialize AOS in useEffect
   useEffect(() => {
@@ -20,6 +23,10 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
     });
     AOS.refresh();
   }, []);
+
+  const handleClick=()=>{
+    navigate('/project')
+  }
 
   return (
     <>
@@ -241,7 +248,7 @@ const CardPage = ({ tectStacks, pageName, Comp1, Comp2, Comp3 }) => {
             )}
           </Grid>
         </Grid>
-        <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}><SwipeButton/></div>
+        <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginBottom:'1.3rem',marginTop:'1rem'}}><SwipeButton label="Our Portfolio" onClick={handleClick}/></div>
       </Container>
     </>
   );

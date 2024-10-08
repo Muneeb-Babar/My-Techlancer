@@ -6,6 +6,7 @@ import team3 from '../../assets/images/teamMembers/sales-manager.jpeg'
 import team4 from '../../assets/images/teamMembers/sales1-ex.jpeg'
 import team5 from '../../assets/images/teamMembers/sales2-ex.jpeg'
 import team6 from '../../assets/images/teamMembers/bussniess.jpeg'
+import team7 from '../../assets/images/teamMembers/project.jpeg'
 import SectionTitle from "../Common/SectionTitle";
 
 import AOS from 'aos'
@@ -32,6 +33,12 @@ const teamMembers = [
         role: "Sales Manager",
         description: "Leads the sales team, develops strategies, and drives revenue growth for the company."
       },  
+      {
+        "image": team7,  
+        "name": "Umar Siddiqui",
+        "role": "Project Manager",
+        "description": "Oversees project planning, execution, and ensures successful delivery of projects by managing resources, timelines, and stakeholder communication."
+      },      
       {
         image: team4,  
         name: "Muhib Nadeem",

@@ -4,14 +4,14 @@ import ProjectData from "../../Data/project2Data.js";
 const Projecr3 = () => {
   const categoryMenu = [
     { title: "Marketing", category: "Marketing" },
-    { title: "Software", category: "Software" },
-    { title: "Real Estate", category: "RealEstate" },
-    { title: "Technology", category: "Technology" },
+    { title: "Websites", category: "Websites" },
+    // { title: "Real Estate", category: "RealEstate" },
+    // { title: "Technology", category: "Technology" },
     { title: "Gaming Assets", category: "GamingAssets" },
     { title: "2D Illustrations", category: "2DArts" },
-    { title: "3D Models", category: "3DModels" },
+    { title: "3D Character", category: "3DModels" },
     { title: "Brand Designing", category: "BrandDesigning" },
-    { title: "3D Character", category: "3DCharacter" },
+    // { title: "3D Character", category: "3DCharacter" },
     { title: "Interior Designing", category: "InteriorDesigning" },
   ];
 

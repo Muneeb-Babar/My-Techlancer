@@ -22,7 +22,8 @@
   background-color: #F1F7F7;
   width: 200px;
   height: 60px;
-  color: rgba(255, 204, 1, 1);
+  color: #324B4C;
+  font-size: 1rem;
   border-radius: 60px;
   display: flex;
   justify-content: center;
@@ -47,7 +48,7 @@
   left: 5px;
   width: 50px;
   height: 50px;
-  background: #7AB5B7;
+  background: #008eb2;
   border-radius: 50%;
   transition: 0.35s ease;
   display: flex;
