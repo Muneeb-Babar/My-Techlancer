@@ -59,25 +59,25 @@ import img25 from "../assets/images/projects/3D/chr5.png";
 import img26 from "../assets/images/projects/3D/chr6.png";
 
 // 2D Art
-import img45 from "../assets/images/projects/2D/art3.jpg";
-import img46 from "../assets/images/projects/2D/art4.jpg";
-import img47 from "../assets/images/projects/2D/art5.jpg";
-import img48 from "../assets/images/projects/2D/art6.jpg";
-import img49 from "../assets/images/projects/2D/art8.jpg";
-import img50 from "../assets/images/projects/2D/art11.jpg";
-import img51 from "../assets/images/projects/2D/art12.jpg";
-import img52 from "../assets/images/projects/2D/art15.jpg";
-import img53 from "../assets/images/projects/2D/art16.jpg";
-import img54 from "../assets/images/projects/2D/art18.jpg";
-import img55 from "../assets/images/projects/2D/art19.jpg";
-import img56 from "../assets/images/projects/2D/art20.jpg";
-import img57 from "../assets/images/projects/2D/art21.jpg";
-import img58 from "../assets/images/projects/2D/art22.jpg";
-import img59 from "../assets/images/projects/2D/art23.jpg";
-import img60 from "../assets/images/projects/2D/art24.jpg";
-import img61 from "../assets/images/projects/2D/art25.jpg";
-import img62 from "../assets/images/projects/2D/art26.jpg";
-import img63 from "../assets/images/projects/2D/art27.jpg";
+import img45 from "../assets/images/projects/2D/illus1.jpg";
+import img46 from "../assets/images/projects/2D/illus2.jpg";
+import img47 from "../assets/images/projects/2D/illus3.jpg";
+import img48 from "../assets/images/projects/2D/illus4.jpg";
+import img49 from "../assets/images/projects/2D/illus5.jpg";
+import img50 from "../assets/images/projects/2D/illus6.jpg";
+// import img51 from "../assets/images/projects/2D/art12.jpg";
+// import img52 from "../assets/images/projects/2D/art15.jpg";
+// import img53 from "../assets/images/projects/2D/art16.jpg";
+// import img54 from "../assets/images/projects/2D/art18.jpg";
+// import img55 from "../assets/images/projects/2D/art19.jpg";
+// import img56 from "../assets/images/projects/2D/art20.jpg";
+// import img57 from "../assets/images/projects/2D/art21.jpg";
+// import img58 from "../assets/images/projects/2D/art22.jpg";
+// import img59 from "../assets/images/projects/2D/art23.jpg";
+// import img60 from "../assets/images/projects/2D/art24.jpg";
+// import img61 from "../assets/images/projects/2D/art25.jpg";
+// import img62 from "../assets/images/projects/2D/art26.jpg";
+// import img63 from "../assets/images/projects/2D/art27.jpg";
 
 // 3D Art
 import img64 from "../assets/images/projects/3D/art1.jpg";
@@ -179,19 +179,19 @@ const ProjectData = [
 { img: img48, title: "Celestial Harmony", category: "2DArts" },
 { img: img49, title: "Urban Jungle", category: "2DArts" },
 { img: img50, title: "Abstract Echo", category: "2DArts" },
-{ img: img51, title: "Mystic Waters", category: "2DArts" },
-{ img: img52, title: "Golden Fields", category: "2DArts" },
-{ img: img53, title: "Ethereal Dreams", category: "2DArts" },
-{ img: img54, title: "Cosmic Dance", category: "2DArts" },
-{ img: img55, title: "Funky Patterns", category: "2DArts" },
-{ img: img56, title: "Vibrant Cityscape", category: "2DArts" },
-{ img: img57, title: "Nature's Palette", category: "2DArts" },
-{ img: img58, title: "Fantasy Realms", category: "2DArts" },
-{ img: img59, title: "Surreal Escape", category: "2DArts" },
-{ img: img60, title: "Charming Whimsy", category: "2DArts" },
-{ img: img61, title: "Lush Landscapes", category: "2DArts" },
-{ img: img62, title: "Bold Expressions", category: "2DArts" },
-{ img: img63, title: "Timeless Tales", category: "2DArts" },
+// { img: img51, title: "Mystic Waters", category: "2DArts" },
+// { img: img52, title: "Golden Fields", category: "2DArts" },
+// { img: img53, title: "Ethereal Dreams", category: "2DArts" },
+// { img: img54, title: "Cosmic Dance", category: "2DArts" },
+// { img: img55, title: "Funky Patterns", category: "2DArts" },
+// { img: img56, title: "Vibrant Cityscape", category: "2DArts" },
+// { img: img57, title: "Nature's Palette", category: "2DArts" },
+// { img: img58, title: "Fantasy Realms", category: "2DArts" },
+// { img: img59, title: "Surreal Escape", category: "2DArts" },
+// { img: img60, title: "Charming Whimsy", category: "2DArts" },
+// { img: img61, title: "Lush Landscapes", category: "2DArts" },
+// { img: img62, title: "Bold Expressions", category: "2DArts" },
+// { img: img63, title: "Timeless Tales", category: "2DArts" },
 
 // ];
 
