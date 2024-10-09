@@ -9,7 +9,7 @@ const Projecr3 = () => {
     // { title: "Technology", category: "Technology" },
     { title: "Gaming Assets", category: "GamingAssets" },
     { title: "2D Illustrations", category: "2DArts" },
-    { title: "3D Character", category: "3DModels" },
+    { title: "3D Characters", category: "3DModels" },
     { title: "Brand Designing", category: "BrandDesigning" },
     // { title: "3D Character", category: "3DCharacter" },
     { title: "Interior Designing", category: "InteriorDesigning" },

@@ -80,14 +80,14 @@ import img50 from "../assets/images/projects/2D/illus6.jpg";
 // import img63 from "../assets/images/projects/2D/art27.jpg";
 
 // 3D Art
-import img64 from "../assets/images/projects/3D/art1.jpg";
-import img65 from "../assets/images/projects/3D/art2.jpg";
-import img66 from "../assets/images/projects/3D/art3.jpg";
-import img67 from "../assets/images/projects/3D/art4.jpg";
-import img68 from "../assets/images/projects/3D/art5.jpg";
-import img69 from "../assets/images/projects/3D/art6.jpg";
-import img70 from "../assets/images/projects/3D/art7.jpg";
-import img71 from "../assets/images/projects/3D/art8.jpg";
+// import img64 from "../assets/images/projects/3D/art1.jpg";
+// import img65 from "../assets/images/projects/3D/art2.jpg";
+// import img66 from "../assets/images/projects/3D/art3.jpg";
+// import img67 from "../assets/images/projects/3D/art4.jpg";
+// import img68 from "../assets/images/projects/3D/art5.jpg";
+// import img69 from "../assets/images/projects/3D/art6.jpg";
+// import img70 from "../assets/images/projects/3D/art7.jpg";
+// import img71 from "../assets/images/projects/3D/art8.jpg";
 
 // Interior Design
 import img72 from "../assets/images/projects/interiorImages/int1.jpg";
@@ -197,14 +197,14 @@ const ProjectData = [
 
 
 // const art3DImages = [
-  { img: img64, title: "Galactic Voyager", category: "3DModels" },
-  { img: img65, title: "Cybernetic Guardian", category: "3DModels" },
-  { img: img66, title: "Ancient Ruins", category: "3DModels" },
-  { img: img67, title: "Futuristic Cityscape", category: "3DModels" },
-  { img: img68, title: "Mystic Creature", category: "3DModels" },
-  { img: img69, title: "Stylized Character", category: "3DModels" },
-  { img: img70, title: "Epic Weapon", category: "3DModels" },
-  { img: img71, title: "Underwater Scene", category: "3DModels" },
+  // { img: img64, title: "Galactic Voyager", category: "3DModels" },
+  // { img: img65, title: "Cybernetic Guardian", category: "3DModels" },
+  // { img: img66, title: "Ancient Ruins", category: "3DModels" },
+  // { img: img67, title: "Futuristic Cityscape", category: "3DModels" },
+  // { img: img68, title: "Mystic Creature", category: "3DModels" },
+  // { img: img69, title: "Stylized Character", category: "3DModels" },
+  // { img: img70, title: "Epic Weapon", category: "3DModels" },
+  // { img: img71, title: "Underwater Scene", category: "3DModels" },
   
 // ];
 

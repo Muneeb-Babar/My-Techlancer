@@ -17,7 +17,6 @@
     position: relative;
     overflow: hidden;
     filter: grayscale(100%); 
-    cursor: pointer;
     z-index: 1;
   }
 
