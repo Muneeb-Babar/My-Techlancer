@@ -10,7 +10,7 @@ import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial2 from "../Components/Testimonial/Testimonial2";
 
-import heroImage from '../assets/images/hero-thumb.png'
+import heroImage from '../assets/images/hero.png'
 import heroBackground from '../assets/images/breadcumb-bg.png'
 import aboutImg from '../assets/images/about.jpg'
 import ScrollToTopButton from "../Components/ScrollBtn/ScrollUpBtn";

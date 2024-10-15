@@ -145,9 +145,9 @@ const Form = () => {
                   required:
                     "Phone number is required",
                   pattern: {
-                    value: /^[0-9]{10}$/,
+                    value: /^[0-9]{11}$/,
                     message:
-                      "Phone number must be 10 digits",
+                      "Phone number must be 11 digits",
                   },
                 })}
                 placeholder="Your Phone *"

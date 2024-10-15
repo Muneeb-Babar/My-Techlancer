@@ -46,8 +46,8 @@ const Hero1 = ({bgImg,SubTitle,Title,Content,BtnText,BtnLink,Image,VideoText}) =
 					</div>
 				</div>
 				<div className="col-lg-4">
-					<div className="hero-thumb">
-						<img src={Image} alt="hero-thumb" style={{width:'80%'}}/>
+					<div className="hero-thumb" style={{marginBottom:'80px'}}>
+						<img src={Image} alt="hero-thumb" style={{width:'100%'}}/>
 					</div>
 				</div>
 			</div>
